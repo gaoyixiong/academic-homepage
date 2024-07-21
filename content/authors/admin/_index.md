@@ -169,14 +169,9 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-## I live in San Francisco, designing large language models at OpenAI.
+## [[CV](resume.pdf)] (Last updated July 2024)
 
-I am a research scientist at Open AI where I am currently working on training ChatGPT v100.
+I am a first-year Ph.D student in the [Theory Group](https://www.cs.cityu.edu.hk/research/research-areas/theoretical-computer-science) in the [Department of Computer Science](https://www.cs.cityu.edu.hk/) at [City University of Hong Kong](https://www.cityu.edu.hk/). I am fortunate to be advised by [Prof. Minming Li](https://www.cs.cityu.edu.hk/~minmli/). Prior to this, I received my B.Eng (Honors) at Hangzhou Dianzi University under the supervision of [Prof. An Zhang](https://sci.hdu.edu.cn/sci_en/2020/0707/c6077a110489/page.htm).
 
-My research interests include:
+I have a broad interest in theoretical computer science. Currently, I am focusing on combinatorial optimization problems.
 
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas molestie lacus nec finibus bibendum. Nullam turpis nibh, viverra quis libero at, pharetra laoreet magna.
