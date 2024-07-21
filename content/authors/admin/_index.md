@@ -7,7 +7,7 @@ name_pronunciation: Yixiong Gao
 
 # Full name (for SEO)
 first_name: Yixiong
-last_name: Gao
+last_name: GAO
 
 # Status emoji
 status:
@@ -169,9 +169,15 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-## Gao Yixiong
+# Yixiong Gao
 
-I am a first-year Ph.D student in the [Theory Group](https://www.cs.cityu.edu.hk/research/research-areas/theoretical-computer-science) in the [Department of Computer Science](https://www.cs.cityu.edu.hk/) at [City University of Hong Kong](https://www.cityu.edu.hk/). I am fortunate to be advised by [Prof. Minming Li](https://www.cs.cityu.edu.hk/~minmli/). Prior to this, I received my B.Eng (Honors) at Hangzhou Dianzi University under the supervision of [Prof. An Zhang](https://sci.hdu.edu.cn/sci_en/2020/0707/c6077a110489/page.htm).
+I am a first-year Ph.D student in the [Theory Group](https://www.cs.cityu.edu.hk/research/research-areas/theoretical-computer-science) in the [Department of Computer Science](https://www.cs.cityu.edu.hk/) at [City University of Hong Kong](https://www.cityu.edu.hk/). I am fortunate to be advised by [Prof. Minming Li](https://www.cs.cityu.edu.hk/~minmli/). 
 
 I have a broad interest in theoretical computer science. Currently, I am focusing on combinatorial optimization problems.
 
+I am highly involved with Competitive Programming. I am a contestant and have won 4 gold medals in the International Collegiate Programming Contests (ICPC) Regional Contests, and 3 gold medals in the China Collegiate Programming Contests (CCPC). I also serve as the chief judge and set problems for multiple official contests including ICPC Asia EC Regionals Online Selection Contests. You can also find me on [Codeforces](https://codeforces.com/profile/sgcolin), [Atcoder](https://atcoder.jp/users/sgcolin), and [Codechef](https://www.codechef.com/users/sgcolin). 
+
+## Education
+
++ Ph.D., Computer Science, City University of Hong Kong, Hong Kong SAR, Sept. 2024 - Current
++ B.Eng. (Honors), Computer Science and Technology, Zhuoyue Honors College (Joint Program with College of Computer Science), Hangzhou Dianzi University, Hangzhou, Sept. 2020 - Jun. 2024
