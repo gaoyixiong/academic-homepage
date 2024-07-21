@@ -171,13 +171,8 @@ awards:
 
 # Yixiong Gao
 
-I am a first-year Ph.D student in the [Theory Group](https://www.cs.cityu.edu.hk/research/research-areas/theoretical-computer-science) in the [Department of Computer Science](https://www.cs.cityu.edu.hk/) at [City University of Hong Kong](https://www.cityu.edu.hk/). I am fortunate to be advised by [Prof. Minming Li](https://www.cs.cityu.edu.hk/~minmli/). 
+I am a first-year Ph.D student in the [Department of Computer Science](https://www.cs.cityu.edu.hk/) at [City University of Hong Kong](https://www.cityu.edu.hk/). I am fortunate to be advised by [Prof. Minming Li](https://www.cs.cityu.edu.hk/~minmli/). Prior to this, I received my B.Eng (Honors) in Computer Science and Technology at Hangzhou Dianzi University.
 
 I have a broad interest in theoretical computer science. Currently, I am focusing on combinatorial optimization problems.
 
-I am highly involved with Competitive Programming. I am a contestant and have won 4 gold medals in the International Collegiate Programming Contests (ICPC) Regional Contests, and 3 gold medals in the China Collegiate Programming Contests (CCPC). I also serve as the chief judge and set problems for multiple official contests including ICPC Asia EC Regionals Online Selection Contests. You can also find me on [Codeforces](https://codeforces.com/profile/sgcolin), [Atcoder](https://atcoder.jp/users/sgcolin), and [Codechef](https://www.codechef.com/users/sgcolin). 
-
-## Education
-
-+ Ph.D., Computer Science, City University of Hong Kong, Hong Kong SAR, Sept. 2024 - Current
-+ B.Eng. (Honors), Computer Science and Technology, Zhuoyue Honors College (Joint Program with College of Computer Science), Hangzhou Dianzi University, Hangzhou, Sept. 2020 - Jun. 2024
+I am highly involved with Competitive Programming. I am a contestant and have won 4 gold medals in the International Collegiate Programming Contests (ICPC) Regional Contests. I also serve as the chief judge and set problems for multiple official contests including ICPC Asia EC Regionals Online Selection Contests. You can also find me on [Codeforces](https://codeforces.com/profile/sgcolin), [Atcoder](https://atcoder.jp/users/sgcolin), and [Codechef](https://www.codechef.com/users/sgcolin). 
