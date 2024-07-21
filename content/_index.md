@@ -3,6 +3,9 @@ title: 'Home'
 date: 2024-07-21
 type: landing
 
+design:
+  spacing: '0rem'
+
 # Page sections
 sections:
   - block: resume-biography-2
