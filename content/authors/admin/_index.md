@@ -27,17 +27,17 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+  - icon: custom/envelope-solid
+    url: 'mailto:yixionggao@outlook.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/github
-    url: https://github.com/gcushen
+  - icon: custom/codeforces
+    url: https://codeforces.com/profile/SGColin
+    label: Codeforces
+  - icon: custom/zhihu
+    url: https://www.zhihu.com/people/sgcolin
+    label: Zhihu
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.linkedin.com/in/yixionggao/
 
 education:
   - area: PhD Artificial Intelligence
