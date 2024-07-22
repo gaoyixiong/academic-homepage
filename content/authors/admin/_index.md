@@ -54,7 +54,6 @@ awards:
     url: https://test2.ccf.org.cn/Awards/Awards/2023-08-26/794973.shtml
     date: '2023-10-25'
     awarder: China Computer Federation
-    icon: coursera
     summary: |
       This award is given by China Computer Federation to about 100 undergraduate students in China with excellent academic performance and outstanding performance in scientific research practices each year.
 ---
