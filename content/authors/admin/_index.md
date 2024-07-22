@@ -30,8 +30,6 @@ profiles:
   - icon: hero/envelope
     url: 'mailto:yixionggao@outlook.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/YixiongGao
   - icon: brands/facebook
     url: https://www.facebook.com/yixionggao
   - icon: brands/linkedin
