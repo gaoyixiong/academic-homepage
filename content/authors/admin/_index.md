@@ -175,4 +175,4 @@ I am a first-year Ph.D student in the [Department of Computer Science](https://w
 
 I have a broad interest in theoretical computer science. Currently, I am focusing on combinatorial optimization problems.
 
-I am highly involved with Competitive Programming. I am a contestant and have won 4 gold medals in the ICPC Regional Contests. I also serve as the chief judge and set problems for multiple official contests including ICPC Asia EC Regionals Online Selection Contests. You can also find me on [Codeforces](https://codeforces.com/profile/sgcolin).
+I am highly involved with Competitive Programming. I am a contestant and have won 4 gold medals in the ICPC Regional Contests. I also serve as the chief judge and set problems for multiple official contests including ICPC Asia EC Regionals Online Selection Contests. 
