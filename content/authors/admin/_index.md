@@ -52,7 +52,7 @@ education:
 skills:
   - name: Technical Skills
     items:
-      - name: Python
+      - name: C++
         description: ''
         percent: 80
         icon: code-bracket
@@ -64,6 +64,22 @@ skills:
         description: ''
         percent: 40
         icon: circle-stack
+  - name: Hobbies
+    color: '#eeac02'
+    color_border: '#f0bf23'
+    items:
+      - name: Hiking
+        description: ''
+        percent: 60
+        icon: person-simple-walk
+      - name: Cats
+        description: ''
+        percent: 100
+        icon: cat
+      - name: Photography
+        description: ''
+        percent: 80
+        icon: camera
 
 languages:
   - name: Chinese
@@ -76,7 +92,7 @@ awards:
     url: https://test2.ccf.org.cn/Awards/Awards/2023-08-26/794973.shtml
     date: '2023-10-25'
     awarder: China Computer Federation
-    icon: ccf.jpg
+    icon: "custom/ccf.jpg"
     summary: |
       This award is given by China Computer Federation to about 100 undergraduate students in China with excellent academic performance and outstanding performance in scientific research practices each year.
 ---
