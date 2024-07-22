@@ -40,9 +40,8 @@ profiles:
 education:
   - area: Ph.D Computer Science 
     institution: City University of Hong Kong
-    date_start: 2016-01-01
-    date_end: Current
-
+    date_start: 2024-09-01
+    date_end: 2028-06-31
   - area: B.Eng Computer Science and Technology
     institution: Hangzhou Dianzi University
     date_start: 2020-09-01
