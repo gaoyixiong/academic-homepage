@@ -27,7 +27,7 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
+  - icon: hero/envelope
     url: 'mailto:yixionggao@outlook.com'
     label: E-mail Me
   - icon: brands/x
@@ -55,7 +55,7 @@ skills:
       - name: C++
         description: ''
         percent: 80
-        icon: code-bracket
+        icon: devicon/cplusplus
       - name: Data Science
         description: ''
         percent: 100
@@ -92,7 +92,6 @@ awards:
     url: https://test2.ccf.org.cn/Awards/Awards/2023-08-26/794973.shtml
     date: '2023-10-25'
     awarder: China Computer Federation
-    icon: "custom/ccf.jpg"
     summary: |
       This award is given by China Computer Federation to about 100 undergraduate students in China with excellent academic performance and outstanding performance in scientific research practices each year.
 ---
