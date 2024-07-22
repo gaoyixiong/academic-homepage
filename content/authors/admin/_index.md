@@ -32,14 +32,10 @@ profiles:
     label: E-mail Me
   - icon: brands/x
     url: https://x.com/YixiongGao
+  - icon: brands/facebook
+    url: https://www.facebook.com/yixionggao
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/yixionggao/   
-  - icon: brands/arxiv
-    url: https://www.linkedin.com/in/yixionggao/
-  - icon: brands/google-scholar
-    url: https://www.linkedin.com/in/yixionggao/  
-  - icon: brands/orcid
-    url: https://www.linkedin.com/in/yixionggao/
 
 education:
   - area: PhD Artificial Intelligence
