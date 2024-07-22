@@ -30,10 +30,15 @@ profiles:
   - icon: at-symbol
     url: 'mailto:yixionggao@outlook.com'
     label: E-mail Me
-  - icon: custom/zhihu
-    url: https://www.zhihu.com/people/sgcolin
-    label: Zhihu
+  - icon: brands/x
+    url: https://x.com/YixiongGao
   - icon: brands/linkedin
+    url: https://www.linkedin.com/in/yixionggao/   
+  - icon: brands/arxiv
+    url: https://www.linkedin.com/in/yixionggao/
+  - icon: brands/google-scholar
+    url: https://www.linkedin.com/in/yixionggao/  
+  - icon: brands/orcid
     url: https://www.linkedin.com/in/yixionggao/
 
 education:
