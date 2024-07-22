@@ -49,6 +49,28 @@ education:
     summary: |
       GPA: 4.64/5.00
 
+skills:
+  - name: Technical Skills
+    items:
+      - name: Python
+        description: ''
+        percent: 80
+        icon: code-bracket
+      - name: Data Science
+        description: ''
+        percent: 100
+        icon: chart-bar
+      - name: SQL
+        description: ''
+        percent: 40
+        icon: circle-stack
+
+languages:
+  - name: Chinese
+    percent: 100
+  - name: English
+    percent: 75
+
 awards:
   - title: CCF Elite Collegiate Award 2023
     url: https://test2.ccf.org.cn/Awards/Awards/2023-08-26/794973.shtml
