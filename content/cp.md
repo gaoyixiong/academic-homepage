@@ -1,10 +1,7 @@
 ---
-title: 'Competitive Programming'
+title: Competitive Programming
 date: 2024-08-01
-type: landing
-
-design:
-  spacing: '5rem'
+pager: false
 ---
 
 I start doing competitive programming since high school. I received a Bronze Medal in Asia-Pacific Informatics Olympiad (APIO) in 2019. Then I joined the Competitive Programming Team of Hangzhou Dianzi University and competed as the team leader (2020-2023) and the student co-coach (2022-2023). During my undergraduate life, I won 7 gold medals in International Collegiate Programming Contest (ICPC), China Collegiate Programming Contest (CCPC) series competitions.
