@@ -9,29 +9,24 @@ I start doing competitive programming since high school. I received a Bronze Med
 #### Awards
 
 [2023.12] Gold medal in the 48th ICPC Asia Hangzhou Regional
-
 [2022.12] Gold medal in the 47th ICPC Asia Nanjing Regional
-
 [2022.11] Gold medal in the 47th ICPC Asia Hefei Regional
-
 [2020.12] Gold medal in the 45th ICPC Asia Jinan Regional 
 
 [2023.11] Gold medal in the 9th CCPC Harbin Site 
-
 [2022.11] Gold medal in the 8th CCPC Guangzhou Site
-
 [2022.11] Gold medal in the 8th CCPC Weihai Site
+
+[2024.04] Gold medal in the 21th Zhejiang Provincial CPC
+[2023.04] Gold medal in the 20th Zhejiang Provincial CPC
+[2022.04] Gold medal in the 19th Zhejiang Provincial CPC
+[2021.04] Gold medal in the 18th Zhejiang Provincial CPC
 
 #### Problem Setting and Judging
 
 [2023.07] [2024 HDU Multi-University Training Contest 3](https://acm.hdu.edu.cn/search.php?field=problem&key=2024%A1%B0%B6%A4%B0%D2%B1%E0%B3%CC%A1%B1%D6%D0%B9%FA%B4%F3%D1%A7%C9%FA%CB%E3%B7%A8%C9%E8%BC%C6%B3%AC%BC%B6%C1%AA%C8%FC%A3%A83%A3%A9&source=1&searchmode=source)
-
 [2024.05] The 7th Guangxi Collegiate Programming Contest 
-
 [2023.09] [The 48th ICPC Asia EC Regionals Online Contest (I)](https://codeforces.com/gym/104639)
-
 [2023.08] [2023 HDU Multi-University Training Contest 5](https://acm.hdu.edu.cn/search.php?field=problem&key=2023%A1%B0%B6%A4%B0%D2%B1%E0%B3%CC%A1%B1%D6%D0%B9%FA%B4%F3%D1%A7%C9%FA%CB%E3%B7%A8%C9%E8%BC%C6%B3%AC%BC%B6%C1%AA%C8%FC%A3%A85%A3%A9&source=1&searchmode=source)
-
 [2023.06] [The 6th Guangxi Collegiate Programming Contest](https://ac.nowcoder.com/acm/contest/59040)
-
 [2022.06] The 5th Guangxi Collegiate Programming Contest
