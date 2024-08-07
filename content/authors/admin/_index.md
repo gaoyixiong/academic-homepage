@@ -27,6 +27,8 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
+  - icon: brands/cv
+    url: cv_yixionggao.pdf
   - icon: hero/envelope
     url: 'mailto:yixionggao@outlook.com'
     label: E-mail Me
@@ -56,7 +58,7 @@ awards:
       This award is given by China Computer Federation to about 100 undergraduate students in China with excellent academic performance and outstanding performance in scientific research practices each year.
 ---
 
-# Yixiong Gao [[CV]](cv_yixionggao.pdf)
+# Yixiong Gao
 
 I am a first-year Ph.D student in the [Department of Computer Science](https://www.cs.cityu.edu.hk/) at [City University of Hong Kong](https://www.cityu.edu.hk/). I am fortunate to be advised by [Prof. Minming Li](https://www.cs.cityu.edu.hk/~minmli/). Prior to this, I received my B.Eng ([Honors](https://zhuoyue.hdu.edu.cn/main.htm)) in Computer Science and Technology at [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) under the supervision of [Prof. An Zhang](https://sci.hdu.edu.cn/sci_en/2020/0707/c6077a110489/page.htm).
 
