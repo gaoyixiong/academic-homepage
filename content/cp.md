@@ -8,19 +8,19 @@ I start doing competitive programming since high school. I received a Bronze Med
 
 #### Awards
 
-[2023.12] [Gold medal in the 48th ICPC Asia Hangzhou Regional](award/icpc-48-hangzhou.pdf)
+[2023.12] [Gold medal in the 48th ICPC Asia Hangzhou Regional](icpc-48-hangzhou.pdf)
 
-[2022.12] [Gold medal in the 47th ICPC Asia Nanjing Regional](award/icpc-47-nanjing.pdf)
+[2022.12] [Gold medal in the 47th ICPC Asia Nanjing Regional](icpc-47-nanjing.pdf)
 
-[2022.11] [Gold medal in the 47th ICPC Asia Hefei Regional](award/icpc-47-hefei.pdf)
+[2022.11] [Gold medal in the 47th ICPC Asia Hefei Regional](icpc-47-hefei.pdf)
 
-[2020.12] [Gold medal in the 45th ICPC Asia Jinan Regional](award/icpc-45-jinan.pdf)
+[2020.12] [Gold medal in the 45th ICPC Asia Jinan Regional](icpc-45-jinan.pdf)
 
-[2023.11] [Gold medal in the 9th CCPC Harbin Site](award/ccpc-9-harbin.jpg)
+[2023.11] [Gold medal in the 9th CCPC Harbin Site](ccpc-9-harbin.jpg)
 
-[2022.11] [Gold medal in the 8th CCPC Guangzhou Site](award/ccpc-8-guangzhou.jpg)
+[2022.11] [Gold medal in the 8th CCPC Guangzhou Site](ccpc-8-guangzhou.jpg)
 
-[2022.11] [Gold medal in the 8th CCPC Weihai Site](award/ccpc-8-weihai.jpg)
+[2022.11] [Gold medal in the 8th CCPC Weihai Site](ccpc-8-weihai.jpg)
 
 [2024.04] Gold medal in the 21th Zhejiang Provincial CPC
 
