@@ -4,31 +4,7 @@ date: 2024-08-01
 pager: false
 ---
 
-I start doing competitive programming since high school. I received a Bronze Medal in Asia-Pacific Informatics Olympiad (APIO) in 2019. Then I joined the Competitive Programming Team of Hangzhou Dianzi University and competed as the team leader (2020-2023) and the student co-coach (2022-2023). During my undergraduate life, I won 7 gold medals in International Collegiate Programming Contest (ICPC), China Collegiate Programming Contest (CCPC) series competitions.
-
-#### Awards
-
-[2023.12] [Gold medal in the 48th ICPC Asia Hangzhou Regional](icpc-48-hangzhou.pdf)
-
-[2022.12] [Gold medal in the 47th ICPC Asia Nanjing Regional](icpc-47-nanjing.pdf)
-
-[2022.11] [Gold medal in the 47th ICPC Asia Hefei Regional](icpc-47-hefei.pdf)
-
-[2020.12] [Gold medal in the 45th ICPC Asia Jinan Regional](icpc-45-jinan.pdf)
-
-[2023.11] [Gold medal in the 9th CCPC Harbin Site](ccpc-9-harbin.jpg)
-
-[2022.11] [Gold medal in the 8th CCPC Guangzhou Site](ccpc-8-guangzhou.jpg)
-
-[2022.11] [Gold medal in the 8th CCPC Weihai Site](ccpc-8-weihai.jpg)
-
-[2024.04] Gold medal in the 21th Zhejiang Provincial CPC
-
-[2023.04] Gold medal in the 20th Zhejiang Provincial CPC
-
-[2022.04] Gold medal in the 19th Zhejiang Provincial CPC
-
-[2021.04] Gold medal in the 18th Zhejiang Provincial CPC
+I start doing competitive programming since high school. I received a Bronze Medal in Asia-Pacific Informatics Olympiad (APIO) in 2019. Then I joined the Competitive Programming Team of Hangzhou Dianzi University and competed as the team leader (2020-2023) and the student co-coach (2022-2023). During my undergraduate life, I won 7 gold medals in International Collegiate Programming Contest (ICPC) and China Collegiate Programming Contest (CCPC) series competitions.
 
 #### Problem Setting and Judging
 
@@ -43,3 +19,35 @@ I start doing competitive programming since high school. I received a Bronze Med
 [2023.06] [The 6th Guangxi Collegiate Programming Contest](https://ac.nowcoder.com/acm/contest/59040)
 
 [2022.06] The 5th Guangxi Collegiate Programming Contest
+
+#### Awards in the International Collegiate Programming Contest (ICPC)
+
+[2023.12] [Gold medal in the 48th ICPC Asia Hangzhou Regional](icpc-48-hangzhou.pdf)
+
+[2022.12] [Gold medal in the 47th ICPC Asia Nanjing Regional](icpc-47-nanjing.pdf)
+
+[2022.11] [Gold medal in the 47th ICPC Asia Hefei Regional (6th place)](icpc-47-hefei.pdf)
+
+[2020.12] [Gold medal in the 45th ICPC Asia Jinan Regional](icpc-45-jinan.pdf)
+
+#### Awards in the China Collegiate Programming Contest (CCPC)
+
+[2023.11] [Gold medal in the 9th CCPC Harbin Site](ccpc-9-harbin.jpg)
+
+[2022.11] [Gold medal in the 8th CCPC Guangzhou Site](ccpc-8-guangzhou.jpg)
+
+[2022.11] [Gold medal in the 8th CCPC Weihai Site](ccpc-8-weihai.jpg)
+
+#### Awards in the  Zhejiang Provincial Collegiate Programming Contest (CCPC)
+
+[2023.04] [Gold medal in the 20th Zhejiang Provincial CPC (2nd place)](ZJCPC-20.pdf)
+
+[2022.04] [Gold medal in the 19th Zhejiang Provincial CPC (4th place)](ZJCPC-19.jpeg)
+
+[2021.04] [Gold medal in the 18th Zhejiang Provincial CPC](ZJCPC-18.jpg)
+
+#### Awards in Other Contests
+
+[2024.06] [2nd Place in the ACM-HK Programming Contest 2024](acmhk-2024.pdf)
+
+[2023.10] [Hong Kong Championship in IEEEXtreme 17.0 (11th worldwide)](IEEEXTREME17.0.pdf)
