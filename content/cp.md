@@ -38,16 +38,14 @@ I start doing competitive programming since high school. I received a Bronze Med
 
 [2022.11] [Gold medal in the 8th CCPC Weihai Site](ccpc-8-weihai.jpg)
 
-### Awards in ZJCPC
+### Awards in Other Contests
+
+[2024.06] [2nd Place in the ACM-HK Programming Contest 2024](acmhk-2024.pdf)
+
+[2023.10] [Hong Kong Championship in IEEEXtreme 17.0 (11th worldwide)](IEEEXTREME17.0.pdf)
 
 [2023.04] [Gold medal in the 20th Zhejiang Provincial CPC (2nd place)](ZJCPC-20.pdf)
 
 [2022.04] [Gold medal in the 19th Zhejiang Provincial CPC (4th place)](ZJCPC-19.jpeg)
 
 [2021.04] [Gold medal in the 18th Zhejiang Provincial CPC](ZJCPC-18.jpg)
-
-### Awards in Other Contests
-
-[2024.06] [2nd Place in the ACM-HK Programming Contest 2024](acmhk-2024.pdf)
-
-[2023.10] [Hong Kong Championship in IEEEXtreme 17.0 (11th worldwide)](IEEEXTREME17.0.pdf)
