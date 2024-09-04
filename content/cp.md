@@ -20,7 +20,7 @@ I start doing competitive programming since high school. I received a Bronze Med
 
 [2022.06] The 5th Guangxi Collegiate Programming Contest
 
-### Awards in the International Collegiate Programming Contest
+### Awards in ICPC
 
 [2023.12] [Gold medal in the 48th ICPC Asia Hangzhou Regional](icpc-48-hangzhou.pdf)
 
@@ -30,7 +30,7 @@ I start doing competitive programming since high school. I received a Bronze Med
 
 [2020.12] [Gold medal in the 45th ICPC Asia Jinan Regional](icpc-45-jinan.pdf)
 
-### Awards in the China Collegiate Programming Contest
+### Awards in CCPC
 
 [2023.11] [Gold medal in the 9th CCPC Harbin Site](ccpc-9-harbin.jpg)
 
@@ -38,7 +38,7 @@ I start doing competitive programming since high school. I received a Bronze Med
 
 [2022.11] [Gold medal in the 8th CCPC Weihai Site](ccpc-8-weihai.jpg)
 
-### Awards in the  Zhejiang Provincial Collegiate Programming Contest
+### Awards in ZJCPC
 
 [2023.04] [Gold medal in the 20th Zhejiang Provincial CPC (2nd place)](ZJCPC-20.pdf)
 
