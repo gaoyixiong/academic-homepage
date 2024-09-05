@@ -8,7 +8,7 @@ I start doing competitive programming since high school. I received a Bronze Med
 
 ### Problem Setting and Judging
 
-[2023.07] [2024 HDU Multi-University Training Contest 3](https://acm.hdu.edu.cn/search.php?field=problem&key=2024%A1%B0%B6%A4%B0%D2%B1%E0%B3%CC%A1%B1%D6%D0%B9%FA%B4%F3%D1%A7%C9%FA%CB%E3%B7%A8%C9%E8%BC%C6%B3%AC%BC%B6%C1%AA%C8%FC%A3%A83%A3%A9&source=1&searchmode=source)
+[2024.07] [2024 HDU Multi-University Training Contest 3](https://acm.hdu.edu.cn/search.php?field=problem&key=2024%A1%B0%B6%A4%B0%D2%B1%E0%B3%CC%A1%B1%D6%D0%B9%FA%B4%F3%D1%A7%C9%FA%CB%E3%B7%A8%C9%E8%BC%C6%B3%AC%BC%B6%C1%AA%C8%FC%A3%A83%A3%A9&source=1&searchmode=source)
 
 [2024.05] The 7th Guangxi Collegiate Programming Contest 
 
