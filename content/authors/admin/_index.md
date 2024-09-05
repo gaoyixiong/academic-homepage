@@ -68,4 +68,4 @@ I am highly involved with Competitive Programming. I am a contestant and have wo
 
 # News
 
-+ Sept., 2024: Our paper "Revisit the Scheduling Problem with Calibrations" is accepted by the 35th International Symposium on Algorithms and Computation (ISAAC 2024).
++ Sept. 2, 2024: Our paper "Revisit the Scheduling Problem with Calibrations" is accepted by the 35th International Symposium on Algorithms and Computation (ISAAC 2024).
