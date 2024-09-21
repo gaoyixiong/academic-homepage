@@ -1,6 +1,6 @@
 ---
 title: Competitive Programming
-date: 2024-08-01
+date: 2024-09-22
 pager: false
 ---
 
