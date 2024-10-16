@@ -28,14 +28,16 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: brands/cv
-    url: cv_yixionggao.pdf
+    url: cv_yixionggao.pdf  
+  - icon: brands/orcid
+    url: https://orcid.org/0009-0008-8846-3873
   - icon: hero/envelope
     url: 'mailto:yixionggao@outlook.com'
     label: E-mail Me
   - icon: brands/facebook
     url: https://www.facebook.com/yixionggao
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/yixionggao/   
+    url: https://www.linkedin.com/in/yixionggao/  
 
 education:
   - area: Ph.D Computer Science 
