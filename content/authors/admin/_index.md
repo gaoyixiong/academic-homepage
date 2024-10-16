@@ -26,14 +26,13 @@ organizations:
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
-profiles:
+profiles:  
+  - icon: hero/envelope
+    url: 'mailto:yixiong.gao@my.cityu.edu.hk'
   - icon: brands/cv
     url: cv_yixionggao.pdf  
   - icon: brands/orcid
     url: https://orcid.org/0009-0008-8846-3873
-  - icon: hero/envelope
-    url: 'mailto:yixionggao@outlook.com'
-    label: E-mail Me
   - icon: brands/facebook
     url: https://www.facebook.com/yixionggao
   - icon: brands/linkedin
