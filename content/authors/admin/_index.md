@@ -33,10 +33,6 @@ profiles:
     url: cv_yixionggao.pdf  
   - icon: brands/orcid
     url: https://orcid.org/0009-0008-8846-3873
-  - icon: brands/facebook
-    url: https://www.facebook.com/yixionggao
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/yixionggao/  
 
 education:
   - area: Ph.D Computer Science 

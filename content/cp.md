@@ -42,6 +42,10 @@ I start doing competitive programming since high school. I received a Bronze Med
 
 ### Awards in Other Contests
 
+[2024.10] Hong Kong Championship in IEEEXtreme 18.0 (13th globally)
+
+[2024.10] Gold medal in 2024 CCF CCSP Contest
+
 [2024.06] [2nd Place in the ACM-HK Programming Contest 2024](acmhk-2024.pdf)
 
 [2023.10] [Hong Kong Championship in IEEEXtreme 17.0 (11th globally)](IEEEXTREME17.0.pdf)
