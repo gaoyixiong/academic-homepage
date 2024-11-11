@@ -4,7 +4,17 @@ date: 2024-09-21
 pager: false
 ---
 
-I start doing competitive programming since high school. I received a Bronze Medal in Asia-Pacific Informatics Olympiad (APIO) in 2019. Then I joined the Competitive Programming Team of Hangzhou Dianzi University and competed as the team leader (2020-2023) and the student co-coach (2022-2023). During my undergraduate life, I won 7 gold medals in International Collegiate Programming Contest (ICPC) and China Collegiate Programming Contest (CCPC) series competitions. You can also find me on [Codeforces](https://codeforces.com/profile/SGColin).
+I am highly involved with Competitive Programming. I started doing competitive programming in high school. I received a Bronze Medal in the Asia-Pacific Informatics Olympiad (APIO) 2019. 
+
+Then, I joined the Competitive Programming Team of Hangzhou Dianzi University, where I competed as the team leader (2020-2023) and served as the student coach (2022-2023). 
+
+After that, I joined the Competitive Programming Team of the City University of Hong Kong, competed as the team leader (2023-2025), and served as the student coach (2023-2025). 
+
+In my competitive programming career, I won 5 gold medals in the International Collegiate Programming Contest (ICPC) regional contests and 3 gold medals in the China Collegiate Programming Contest (CCPC) series contests. 
+
+I also serve as the chief judge and set problems for multiple official contests, including the ICPC Asia EC Regionals Online Selection Contests (48th and 49th). 
+
+You can also find me on [Codeforces](https://codeforces.com/profile/SGColin).
 
 ### Problem Setting and Judging
 
@@ -23,6 +33,8 @@ I start doing competitive programming since high school. I received a Bronze Med
 [2022.06] The 5th Guangxi Collegiate Programming Contest
 
 ### Awards in ICPC
+
+[2024.11] Gold medal in the 49th ICPC Asia Hangzhou Regional
 
 [2023.12] [Gold medal in the 48th ICPC Asia Hangzhou Regional](icpc-48-hangzhou.pdf)
 
