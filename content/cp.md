@@ -34,7 +34,7 @@ You can also find me on [Codeforces](https://codeforces.com/profile/SGColin).
 
 ### Awards in ICPC
 
-[2024.11] [Gold medal in the 49th ICPC Asia Hangzhou Regional](icpc-48-hangzhou.pdf)
+[2024.11] [Gold medal in the 49th ICPC Asia Hangzhou Regional](icpc-49-hangzhou.pdf)
 
 [2023.12] [Gold medal in the 48th ICPC Asia Hangzhou Regional](icpc-48-hangzhou.pdf)
 
