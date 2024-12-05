@@ -54,6 +54,12 @@ awards:
     awarder: Lin Chen, Yixiong Gao, Minming Li, Guohui Lin, and Kai Wang
     summary: |
       35th International Symposium on Algorithms and Computation (ISAAC 2024)
+    button:
+      text: 'DOI'
+      url: 'https://doi.org/10.4230/LIPIcs.ISAAC.2024.20'
+    button:
+      text: 'DOI2'
+      url: 'https://doi.org/10.4230/LIPIcs.ISAAC.2024.20'
 ---
 
 # Yixiong Gao
