@@ -8,9 +8,13 @@ tags:
 
 [[DOI](https://doi.org/10.4230/LIPIcs.ISAAC.2024.20)] [[PDF](/publications/revisit-the-scheduling-problem-with-calibrations/LIPIcs.ISAAC.2024.20.pdf)] [[Slides]()]
 
+### Authors
+
 [Lin Chen](https://orcid.org/0000-0003-3909-4916), [**Yixiong Gao**](https://yixionggao.com/), [Minming Li](https://www.cs.cityu.edu.hk/~minmli/), [Guohui Lin](https://webdocs.cs.ualberta.ca/~ghlin/), and [Kai Wang](https://orcid.org/0000-0002-6455-485X). 
 
-35th International Symposium on Algorithms and Computation (ISAAC 2024)
+### Publication
+
+In the 35th International Symposium on Algorithms and Computation (ISAAC 2024)
 
 ### Abstract
 
