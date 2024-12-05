@@ -48,12 +48,12 @@ education:
       GPA: 4.64/5.00
 
 awards:
-  - title: CCF Elite Collegiate Award 2023
-    url: https://test2.ccf.org.cn/Awards/Awards/2023-08-26/794973.shtml
-    date: '2023-10-25'
-    awarder: China Computer Federation
+  - title: Revisit the Scheduling Problem with Calibrations
+    url: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ISAAC.2024.20
+    date: '2024-12-04'
+    awarder: 35th International Symposium on Algorithms and Computation (ISAAC 2024)
     summary: |
-      This award is given by China Computer Federation to about 100 undergraduate students in China with excellent academic performance and outstanding performance in scientific research practices each year.
+      Lin Chen, Yixiong Gao, Minming Li, Guohui Lin, and Kai Wang
 ---
 
 # Yixiong Gao
