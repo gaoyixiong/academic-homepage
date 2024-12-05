@@ -51,9 +51,9 @@ awards:
   - title: Revisit the Scheduling Problem with Calibrations
     url: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ISAAC.2024.20
     date: '2024-12-04'
-    awarder: 35th International Symposium on Algorithms and Computation (ISAAC 2024)
+    awarder: Lin Chen, Yixiong Gao, Minming Li, Guohui Lin, and Kai Wang
     summary: |
-      Lin Chen, Yixiong Gao, Minming Li, Guohui Lin, and Kai Wang
+      35th International Symposium on Algorithms and Computation (ISAAC 2024)
 ---
 
 # Yixiong Gao
