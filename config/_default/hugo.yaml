@@ -13,7 +13,7 @@ baseURL: 'https://yixionggao.com/' # Website URL
 cascade:
   # Blog post options
   - _target:
-      path: /post/**
+      path: /publications/**
       kind: page
     pager: true
     editable: false
