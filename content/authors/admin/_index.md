@@ -30,11 +30,11 @@ profiles:
   - icon: hero/envelope
     url: 'mailto:yixiong.gao@my.cityu.edu.hk'
   - icon: brands/cv
-    url: cv_yixionggao.pdf  
-  - icon: academicons/dblp
-    url: https://dblp.org/pid/392/0640.html
+    url: cv_yixionggao.pdf    
   - icon: brands/google-scholar
     url: https://scholar.google.com/citations?user=mYseifYAAAAJ&hl=en 
+  - icon: academicons/dblp
+    url: https://dblp.org/pid/392/0640.html
   - icon: brands/orcid
     url: https://orcid.org/0009-0008-8846-3873
 education:
