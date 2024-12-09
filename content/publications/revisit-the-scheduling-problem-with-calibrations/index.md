@@ -6,7 +6,7 @@ tags:
   - ISAAC
 ---
 
-[[DOI](https://doi.org/10.4230/LIPIcs.ISAAC.2024.20)] [[PDF](/publications/revisit-the-scheduling-problem-with-calibrations/LIPIcs.ISAAC.2024.20.pdf)] [[Slides]()]
+[[DOI](https://doi.org/10.4230/LIPIcs.ISAAC.2024.20)] [[PDF](/publications/revisit-the-scheduling-problem-with-calibrations/LIPIcs.ISAAC.2024.20.pdf)] [[Slides](/publications/revisit-the-scheduling-problem-with-calibrations/Revisit_the_Scheduling_Problem_with_Calibrations.pdf)]
 
 ### Authors
 
