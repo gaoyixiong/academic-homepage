@@ -68,6 +68,8 @@ You can also find me on [Codeforces](https://codeforces.com/profile/SGColin).
 
 [2024.06] [2nd Place in the ACM-HK Programming Contest 2024](acmhk-2024.pdf)
 
+[2024.04] [Gold medal in the 2024 ICPC China Wuhan Invitational](icpc-48-wuhan.pdf)
+
 [2023.10] [Hong Kong Championship in IEEEXtreme 17.0 (11th globally)](IEEEXTREME17.0.pdf)
 
 [2023.04] [Gold medal in the 20th Zhejiang Provincial CPC (2nd place)](ZJCPC-20.pdf)
