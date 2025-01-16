@@ -12,7 +12,7 @@ After that, I joined the Competitive Programming Team of the City University of 
 
 In my competitive programming career, I won five gold medals in the International Collegiate Programming Contest (ICPC) regional contests and three gold medals in the China Collegiate Programming Contest (CCPC) series contests. 
 
-I have also been the chief judge and set problems for multiple official contests, including the ICPC Asia East Continent Online Selection Contests (48th and 49th). 
+I have also served as the chief judge and set problems for multiple official contests, including the ICPC Asia East Continent Online Selection Contests (48th and 49th). 
 
 You can also find me on [Codeforces](https://codeforces.com/profile/SGColin).
 
