@@ -66,8 +66,8 @@ awards:
 
 # Yixiong Gao
 
-I am a first-year Ph.D student in the [Department of Computer Science](https://www.cs.cityu.edu.hk/) at [City University of Hong Kong](https://www.cityu.edu.hk/). I am fortunate to be advised by [Prof. Minming Li](https://www.cs.cityu.edu.hk/~minmli/). Prior to this, I received my B.Eng ([Honors](https://zhuoyue.hdu.edu.cn/main.htm)) in Computer Science and Technology at [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) under the supervision of [Prof. An Zhang](https://sci.hdu.edu.cn/sci_en/2020/0707/c6077a110489/page.htm).
+I am a first-year Ph.D student in the [Department of Computer Science](https://www.cs.cityu.edu.hk/) at [City University of Hong Kong](https://www.cityu.edu.hk/), fortunate to be advised by [Prof. Minming Li](https://www.cs.cityu.edu.hk/~minmli/). Prior to this, I received my B.Eng ([Honors](https://zhuoyue.hdu.edu.cn/main.htm)) in Computer Science and Technology at [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) under the supervision of [Prof. An Zhang](https://sci.hdu.edu.cn/sci_en/2020/0707/c6077a110489/page.htm).
 
 I have a broad interest in theoretical computer science. Currently, I am focusing on combinatorial optimization problems, especially scheduling problems.
 
-I am highly involved with Competitive Programming. I am a contestant and have won 5 gold medals in the ICPC Regional Contests. I also serve as the chief judge and set problems for multiple official contests, including ICPC Asia EC Regionals Online Selection Contests.
+I am highly involved with Competitive Programming. I was a contestant and won five gold medals in the ICPC Contests. I have also served as the chief judge and set problems for multiple official contests, including the ICPC Asia East Continent Online Selection Contests.
