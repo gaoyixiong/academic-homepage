@@ -62,7 +62,7 @@ You can also find me on [Codeforces](https://codeforces.com/profile/SGColin).
 
 ### Awards in Other Contests
 
-[2024.10] Hong Kong Championship in IEEEXtreme 18.0 (13th globally)
+[2024.10] [Hong Kong Championship in IEEEXtreme 18.0 (13th globally)](IEEEXTREME18.0.pdf)
 
 [2024.10] [Gold medal in 2024 CCF CCSP Contest](ccsp-24.pdf)
 
