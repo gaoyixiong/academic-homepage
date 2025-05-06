@@ -70,5 +70,5 @@ I am a first-year Ph.D student in the [Department of Computer Science](https://w
 
 I have a broad interest in theoretical computer science. Currently, I am focusing on combinatorial optimization problems, especially scheduling problems.
 
-I am highly involved with Competitive Programming. I was a contestant in 2014 - 2024, winning several gold medals. I also served as the chief judge and set problems for multiple official contests.
+I am highly involved with Competitive Programming. I was a contestant in 2014 - 2024, winning several gold medals. I also served as the chief judge for multiple official contests.
 
