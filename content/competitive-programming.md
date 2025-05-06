@@ -62,13 +62,13 @@ You can also find me on [Codeforces](https://codeforces.com/profile/SGColin).
 
 ### Awards in Other Contests
 
-[2025.04] [Runner-up in the 2025 GBA International Programming Contest](GBAIPC-25.pdf)
+[2025.04] [Runner-up in the Greater Bay Area IPC 2025](GBAIPC-25.pdf)
 
 [2024.10] [Hong Kong Championship in IEEEXtreme 18.0 (13th globally)](IEEEXTREME18.0.pdf)
 
 [2024.10] [Gold medal in the 2024 CCF CCSP Contest](ccsp-24.pdf)
 
-[2024.06] [Runner-up in the ACM-HK Programming Contest 2024](acmhk-2024.pdf)
+[2024.06] [2nd Place in the ACM-HK Programming Contest 2024](acmhk-2024.pdf)
 
 [2024.04] [Gold medal in the 2024 ICPC China Wuhan Invitational](icpc-48-wuhan.pdf)
 
