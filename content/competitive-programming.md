@@ -36,7 +36,7 @@ You can also find me on [Codeforces](https://codeforces.com/profile/SGColin).
 
 ### Awards in ICPC
 
-[2024.12] Silver medal in the 49th ICPC Asia-East Continent Final
+[2024.12] [Silver medal in the 49th ICPC Asia-East Continent Final](icpc-49-ecfinal.pdf)
 
 [2024.11] [Gold medal in the 49th ICPC Asia Hangzhou Regional](icpc-49-hangzhou.pdf)
 
