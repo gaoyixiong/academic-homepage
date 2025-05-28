@@ -18,6 +18,8 @@ You can also find me on [Codeforces](https://codeforces.com/profile/SGColin).
 
 ### Problem Setting and Judging
 
+[2025.05] [The 8th Guangxi Collegiate Programming Contest](https://ac.nowcoder.com/acm/contest/110811)
+
 [2024.09] [The 49th ICPC Asia EC Regionals Online Contest (II)](https://codeforces.com/gym/105358)
 
 [2024.07] [2024 HDU Multi-University Training Contest 3](https://acm.hdu.edu.cn/search.php?field=problem&key=2024%A1%B0%B6%A4%B0%D2%B1%E0%B3%CC%A1%B1%D6%D0%B9%FA%B4%F3%D1%A7%C9%FA%CB%E3%B7%A8%C9%E8%BC%C6%B3%AC%BC%B6%C1%AA%C8%FC%A3%A83%A3%A9&source=1&searchmode=source)
