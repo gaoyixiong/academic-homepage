@@ -10,7 +10,7 @@ design:
 sections:
   - block: resume-biography-2
     content:
-      title: 高义雄
+      title: Yixiong Gao
       # Note: `username` refers to the user's folder name in `content/authors/`
       username: admin
 ---
