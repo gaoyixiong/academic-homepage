@@ -64,7 +64,7 @@ awards:
       url: 'https://doi.org/10.4230/LIPIcs.ISAAC.2024.20'
 ---
 
-# Yixiong Colin GAO
+# Yixiong Colin Gao
 
 I am a first-year Ph.D student in the [Department of Computer Science](https://www.cs.cityu.edu.hk/) at [City University of Hong Kong](https://www.cityu.edu.hk/), and I am fortunate to be advised by [Prof. Minming Li](https://www.cs.cityu.edu.hk/~minmli/). Prior to this, I received my B.Eng ([Honors](https://zhuoyue.hdu.edu.cn/main.htm)) in Computer Science and Technology at [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) under the supervision of [Prof. An Zhang](https://sci.hdu.edu.cn/sci_en/2020/0707/c6077a110489/page.htm).
 
