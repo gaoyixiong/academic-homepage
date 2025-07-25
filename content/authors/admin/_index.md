@@ -72,3 +72,6 @@ I have a broad interest in theoretical computer science. Currently, I am focusin
 
 I am highly involved with [Competitive Programming](/competitive-programming/). I was a contestant in 2014 - 2024, winning several gold medals. I also served as the chief judge for multiple official contests.
 
+## News
+
++ **Jul. 2025**: I am visiting Zhejiang University till Dec. 2025, advised by [Prof. Lin Chen](https://person.zju.edu.cn/en/linchen) and [Prof. Guochuan Zhang](https://person.zju.edu.cn/en/0096209).
