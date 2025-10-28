@@ -14,9 +14,13 @@ In my competitive programming career, I won five gold medals in the Internationa
 
 I also served as the chief judge and set problems for multiple official contests, including the ICPC Asia East Continent Online Selection Contests (48th and 49th). 
 
-You can also find me on [Codeforces](https://codeforces.com/profile/SGColin).
+You can also find me on [Codeforces](https://codeforces.com/profile/SGColin), [AtCoder](), and [LeetCode]().
 
 ### Problem Setting and Judging
+
+[2025.10] [2025 CCPC Women's Division](https://qoj.ac/contest/2564) & [Vocational Division](https://qoj.ac/contest/2565)
+
+[2025.09] 2025 CityU-PolyU Collegiate Programming Contest
 
 [2025.05] [The 8th Guangxi Collegiate Programming Contest](https://ac.nowcoder.com/acm/contest/110811)
 
@@ -63,6 +67,8 @@ You can also find me on [Codeforces](https://codeforces.com/profile/SGColin).
 [2022.11] [Gold medal in the 8th CCPC Weihai Site](ccpc-8-weihai.jpg)
 
 ### Awards in Other Contests
+
+[2025.10] [Gold medal in the 2025 CCF CCSP Contest](ccsp-25.pdf)
 
 [2025.04] [Runner-up in the Greater Bay Area IPC 2025](GBAIPC-25.pdf)
 
