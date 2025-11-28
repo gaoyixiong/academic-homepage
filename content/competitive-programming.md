@@ -12,15 +12,15 @@ After that, I joined the Competitive Programming Team of the City University of 
 
 In my competitive programming career, I won five gold medals in the International Collegiate Programming Contest (ICPC) regional contests and three gold medals in the China Collegiate Programming Contest (CCPC) series contests. 
 
-I also served as the chief judge and set problems for multiple official contests, including the ICPC Asia East Continent Online Selection Contests (48th and 49th). 
+I am a member of the [Universal Cup](https://ucup.ac/) Organizing Committee. I also served as the chief judge and set problems for multiple official contests, including the ICPC Asia East Continent Online Selection Contests (48th and 49th). 
 
-You can also find me on [Codeforces](https://codeforces.com/profile/SGColin), [AtCoder](), and [LeetCode]().
+You can also find me on [Universal Cup](https://ucup.ac/about/members/#yixiong-gao), [QOJ](https://qoj.ac/user/profile/SGColin), [Codeforces](https://codeforces.com/profile/SGColin), and [LeetCode](https://leetcode.cn/u/yixionggao/).
 
 ### Problem Setting and Judging
 
 [2025.10] [2025 CCPC Women's Division](https://qoj.ac/contest/2564) & [Vocational Division](https://qoj.ac/contest/2565)
 
-[2025.09] 2025 CityU-PolyU Collegiate Programming Contest
+[2025.09] [2025 CityU-PolyU Collegiate Programming Contest](https://oj.cs.cityu.edu.hk/contest/)
 
 [2025.05] [The 8th Guangxi Collegiate Programming Contest](https://ac.nowcoder.com/acm/contest/110811)
 

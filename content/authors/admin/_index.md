@@ -70,7 +70,7 @@ I am a second-year Ph.D student in the [Department of Computer Science](https://
 
 I have a broad interest in theoretical computer science. Currently, I am focusing on combinatorial optimization problems, especially scheduling problems.
 
-I am highly involved with [Competitive Programming](/competitive-programming/). I was a contestant in 2014 - 2024, winning several gold medals. I also served as the chief judge for multiple official contests.
+I have been deeply involved in [Competitive Programming](/competitive-programming/) for over a decade, earning multiple gold medals as a contestant (2014–2024). I also serve as a chief judge for multiple official contests and as a member of the [Universal Cup](https://ucup.ac/) Organizing Committee.
 
 ## News
 
