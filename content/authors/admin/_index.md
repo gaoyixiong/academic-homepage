@@ -71,7 +71,3 @@ I am a second-year Ph.D student in the [Department of Computer Science](https://
 I have a broad interest in theoretical computer science. Currently, I am focusing on combinatorial optimization problems, especially scheduling problems.
 
 I have been deeply involved in [Competitive Programming](/competitive-programming/) for over a decade, earning multiple gold medals as a contestant (2014–2024). I also serve as a chief judge for multiple official contests and as a member of the [Universal Cup](https://ucup.ac/) Organizing Committee.
-
-## News
-
-+ **Jul. 2025**: I am visiting Zhejiang University till Dec. 2025, advised by [Prof. Lin Chen](https://person.zju.edu.cn/en/linchen) and [Prof. Guochuan Zhang](https://person.zju.edu.cn/en/0096209).
