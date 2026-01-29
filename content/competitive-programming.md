@@ -18,6 +18,8 @@ You can also find me on [Universal Cup](https://ucup.ac/about/members/#yixiong-g
 
 ### Problem Setting and Judging
 
+[2026.01] The 7th OCPC, Day 5: Colin and his friends' Contest
+
 [2025.10] [2025 CCPC Women's Division](https://qoj.ac/contest/2564) & [Vocational Division](https://qoj.ac/contest/2565)
 
 [2025.09] [2025 CityU-PolyU Collegiate Programming Contest](https://oj.cs.cityu.edu.hk/contest/)
