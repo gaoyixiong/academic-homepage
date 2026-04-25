@@ -18,6 +18,8 @@ You can also find me on [Universal Cup](https://ucup.ac/about/members/#yixiong-g
 
 ### Problem Setting and Judging
 
+[2026.04] ] [The 2026 ICPC China Shenzhen Invitational Contest (The 4th Universal Cup. Extra Stage 5: Shenzhen)](https://qoj.ac/contest/3588)
+
 [2026.01] The 7th OCPC, Day 5: Colin and his friends' Contest
 
 [2025.10] [2025 CCPC Women's Division](https://qoj.ac/contest/2564) & [Vocational Division](https://qoj.ac/contest/2565)
