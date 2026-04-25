@@ -32,10 +32,9 @@ China Collegiate Programming Contest (CCPC) series:
 + [2023.06] [The 6th Guangxi Collegiate Programming Contest](https://ac.nowcoder.com/acm/contest/59040)
 + [2022.06] The 5th Guangxi Collegiate Programming Contest
 
-Training Camps & :
+Training Camps:
 
 + [2026.01] [The 7th OCPC, Day 5: Colin and his friends' Contest](https://ocpc.camp/2026w/)
-+ [2025.09] [2025 CityU-PolyU Collegiate Programming Contest](https://oj.cs.cityu.edu.hk/contest/)
 + [2024.07] [2024 HDU Multi-University Training Contest 3](https://acm.hdu.edu.cn/search.php?field=problem&key=2024%A1%B0%B6%A4%B0%D2%B1%E0%B3%CC%A1%B1%D6%D0%B9%FA%B4%F3%D1%A7%C9%FA%CB%E3%B7%A8%C9%E8%BC%C6%B3%AC%BC%B6%C1%AA%C8%FC%A3%A83%A3%A9&source=1&searchmode=source)
 + [2023.08] [2023 HDU Multi-University Training Contest 5](https://acm.hdu.edu.cn/search.php?field=problem&key=2023%A1%B0%B6%A4%B0%D2%B1%E0%B3%CC%A1%B1%D6%D0%B9%FA%B4%F3%D1%A7%C9%FA%CB%E3%B7%A8%C9%E8%BC%C6%B3%AC%BC%B6%C1%AA%C8%FC%A3%A85%A3%A9&source=1&searchmode=source)
 
