@@ -1,0 +1,23 @@
+/* Give large desktop layouts 10% more room without changing smaller screens. */
+@media (min-width: 1280px) {
+  .page-wrapper .max-w-screen-xl {
+    max-width: 1408px;
+  }
+
+  .page-wrapper .max-w-6xl {
+    max-width: 79.2rem;
+  }
+
+  .page-wrapper .prose:not(.max-w-none),
+  .page-wrapper .max-w-prose {
+    max-width: 71.5ch;
+  }
+
+  .blox-resume-biography-2 .max-w-7xl {
+    max-width: 88rem;
+  }
+
+  .blox-resume-biography-2 .lg\:max-w-5xl {
+    max-width: 70.4rem;
+  }
+}

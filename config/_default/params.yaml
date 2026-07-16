@@ -42,6 +42,11 @@ footer:
       share_alike: true
       allow_commercial: false
 
+# Hide the Hugo Blox attribution in the site footer.
+i_am_a_sponsor: true
+power_ups:
+  hide_published_with: true
+
 # Localization
 locale:
   date_format: 'Jan 2, 2006'

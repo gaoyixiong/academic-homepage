@@ -22,6 +22,7 @@ cascade:
     show_related: false
     share: false
     show_breadcrumb: false
+    profile: false
   # Tag page options
   - _target:
       path: /tags/**
