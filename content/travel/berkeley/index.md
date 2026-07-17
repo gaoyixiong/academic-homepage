@@ -22,6 +22,7 @@ trips:
     photos:
       - file: cslaw-2026-poster-2026-03-04.jpg
         alt: Yixiong Gao standing beside his research poster at CS&Law 2026
+        thumbnail_focus: top
         when:
           start: "2026-03-04"
           display: "4 March 2026"
