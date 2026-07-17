@@ -1,29 +1,333 @@
-/* Give large desktop layouts 10% more room without changing smaller screens. */
+/* Give Travel its own compact desktop canvas while other pages retain the
+   theme's original max-widths. */
 @media (min-width: 1280px) {
-  .page-wrapper .max-w-screen-xl {
-    max-width: 1408px;
-  }
-
-  .page-wrapper .max-w-6xl {
-    max-width: 79.2rem;
-  }
-
-  .page-wrapper .prose:not(.max-w-none),
-  .page-wrapper .max-w-prose {
-    max-width: 71.5ch;
-  }
-
-  .blox-resume-biography-2 .max-w-7xl {
-    max-width: 88rem;
-  }
-
-  .blox-resume-biography-2 .lg\:max-w-5xl {
-    max-width: 70.4rem;
+  .travel-page.max-w-screen-xl {
+    max-width: 64rem;
   }
 }
 
-/* Match the Publications index title to regular page titles. */
-.page-body > .max-w-prose > article.prose > h1.lg\:text-6xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+/* Match Competitive Programming to the full two-column Bio canvas. */
+.competitive-programming-page {
+  max-width: 42.6667rem;
+}
+
+.competitive-programming-page .prose {
+  max-width: none;
+}
+
+/* Keep the copyright visually connected to the page content. Put any spare
+   viewport height after the footer content rather than between the page and
+   its copyright line. */
+.page-wrapper {
+  grid-template-rows: auto auto 1fr;
+}
+
+.page-footer > footer {
+  margin-top: 2rem;
+}
+
+.page-body.my-10 {
+  margin-bottom: 1rem;
+}
+
+/* The root page grid already handles viewport height; the standard single-page
+   article does not need a second viewport-height minimum. */
+.page-body > .mx-auto.flex.max-w-screen-xl > article {
+  min-height: 0;
+}
+
+/* Bio and the Publications index use the same final content breathing room as
+   Travel before the shared footer spacing begins. */
+.blox-resume-biography-2 > main,
+.publications-list-results {
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 640px) {
+  .page-footer > footer {
+    margin-top: 3rem;
+  }
+}
+
+/* Shared editorial typography. UI labels and Travel controls retain their own
+   compact component sizing. */
+.page-body .prose {
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.page-body .prose h1,
+.site-page-title,
+.page-body > .mx-auto.flex.max-w-screen-xl article main > h1.mt-2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+.site-page-title {
+  margin-top: 0;
+}
+
+.page-body .prose h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+.page-body .prose h3 {
+  font-size: 1.5rem;
+  font-weight: 650;
+  line-height: 2rem;
+}
+
+@media (min-width: 640px) {
+  .page-body .prose h1,
+  .site-page-title,
+  .page-body > .mx-auto.flex.max-w-screen-xl article main > h1.mt-2 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+/* Publication summaries are body-sized but slightly tighter than long-form
+   prose. Dates and other metadata remain at the theme's 14px size. */
+.publications-list-results article p.relative.z-10 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+/* On phones, publication entries become compact, full-width reading cards.
+   The theme's large invisible hover target is useful on desktop, but its
+   negative insets make the mobile list feel loose and can extend past the
+   card edge. */
+@media (max-width: 639px) {
+  .publications-list-results {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 42rem;
+    margin-inline: auto;
+    align-items: stretch;
+  }
+
+  .publications-list-results > .mt-16 {
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .publications-list-results > .mt-16 > .flex {
+    width: 100%;
+    max-width: none;
+  }
+
+  .publications-list-results > .mt-16 > .flex > article {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1rem 1rem 1.05rem;
+    border: 1px solid #e4e4e7;
+    border-radius: 0.875rem;
+    background: rgba(250, 250, 250, 0.82);
+    box-shadow: 0 1px 2px rgba(24, 24, 27, 0.04);
+  }
+
+  .publications-list-results > .mt-16 > .flex > article + article {
+    margin-top: 1rem !important;
+  }
+
+  .dark .publications-list-results > .mt-16 > .flex > article {
+    border-color: #3f3f46;
+    background: rgba(39, 39, 42, 0.48);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.18);
+  }
+
+  .publications-list-results article > div {
+    width: 100%;
+  }
+
+  .publications-list-results article h2 {
+    margin: 0;
+    font-size: 1.0625rem;
+    line-height: 1.45;
+  }
+
+  .publications-list-results article h2 > div.absolute,
+  .publications-list-results article h2 a > span.absolute {
+    display: none;
+  }
+
+  .publications-list-results article time.md\:hidden {
+    margin: 0 0 0.5rem;
+    padding: 0;
+    font-size: 0.75rem;
+    font-variant-numeric: tabular-nums;
+    line-height: 1.25rem;
+  }
+
+  .publications-list-results article p.relative.z-10 {
+    margin-top: 0.625rem;
+  }
+
+  .publications-list-results article [aria-hidden='true'].relative.z-10 {
+    margin-top: 0.875rem;
+  }
+}
+
+/* Three-way appearance chooser: System, Light, and Dark. */
+.theme-toggle:not([data-theme-mode]) > svg {
+  visibility: hidden;
+}
+
+.theme-toggle[data-theme-mode] > [data-theme-icon] {
+  display: none !important;
+}
+
+.theme-toggle[data-theme-mode='light'] > [data-theme-icon='light'],
+.theme-toggle[data-theme-mode='dark'] > [data-theme-icon='dark'] {
+  display: block !important;
+}
+
+.theme-toggle[data-theme-mode='system'] > [data-theme-icon='system'] {
+  display: inline-flex !important;
+}
+
+.theme-mode-icon-system {
+  width: 24px;
+  height: 18px;
+  align-items: flex-start;
+  justify-content: center;
+  color: currentColor;
+  vertical-align: middle;
+}
+
+.theme-mode-icon-system > span {
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+  width: 18px;
+  height: 12px;
+  border: 2px solid currentColor;
+  border-radius: 2px;
+}
+
+.theme-mode-icon-system > span::before,
+.theme-mode-icon-system > span::after {
+  position: absolute;
+  left: 50%;
+  background: currentColor;
+  content: '';
+  transform: translateX(-50%);
+}
+
+.theme-mode-icon-system > span::before {
+  bottom: -5px;
+  width: 2px;
+  height: 4px;
+}
+
+.theme-mode-icon-system > span::after {
+  bottom: -6px;
+  width: 9px;
+  height: 2px;
+  border-radius: 1px;
+}
+
+.theme-selector-host {
+  position: relative;
+}
+
+.theme-selector-menu {
+  position: absolute;
+  z-index: 60;
+  top: calc(100% + 0.5rem);
+  inset-inline-end: 0;
+  box-sizing: border-box;
+  min-width: 10.5rem;
+  max-width: calc(100vw - 2rem);
+  padding: 0.35rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  background: #ffffff;
+  color: #111827;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.16);
+}
+
+.dark .theme-selector-menu {
+  border-color: #374151;
+  background: #111827;
+  color: #f9fafb;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+.theme-selector-option {
+  display: grid;
+  grid-template-columns: 1.1rem minmax(0, 1fr);
+  column-gap: 0.55rem;
+  width: 100%;
+  padding: 0.55rem 0.65rem;
+  border: 0;
+  border-radius: 0.5rem;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  font-size: 0.82rem;
+  line-height: 1.2;
+  text-align: start;
+}
+
+.theme-selector-option span,
+.theme-selector-option small {
+  grid-column: 2;
+}
+
+.theme-selector-option-icon {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  align-self: center;
+  width: 1rem;
+  height: 1rem;
+  opacity: 0.62;
+}
+
+.theme-selector-option[aria-checked='true'] {
+  background: #f3f4f6;
+}
+
+.dark .theme-selector-option[aria-checked='true'] {
+  background: #1f2937;
+}
+
+.theme-selector-option[aria-checked='true'] .theme-selector-option-icon {
+  opacity: 1;
+}
+
+.theme-selector-option span {
+  font-weight: 650;
+}
+
+.theme-selector-option small {
+  margin-top: 0.12rem;
+  color: #6b7280;
+  font-size: 0.68rem;
+}
+
+.dark .theme-selector-option small {
+  color: #9ca3af;
+}
+
+.theme-selector-option:hover,
+.theme-selector-option:focus-visible {
+  background: #f3f4f6;
+  outline: none;
+}
+
+.dark .theme-selector-option:hover,
+.dark .theme-selector-option:focus-visible {
+  background: #1f2937;
+}
+
+/* Keep long display equations usable on narrow publication pages. */
+article .prose mjx-container[display='true'] {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-block: 0.2rem;
 }

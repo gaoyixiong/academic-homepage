@@ -1,0 +1,42 @@
+{{ $page := .page }}
+{{ $trip := .trip }}
+{{ $photo := .photo }}
+{{ $image := $page.Resources.GetMatch $photo.file }}
+{{ $photoWhen := $photo.when | default (dict) }}
+{{ $tripWhen := $trip.when | default (dict) }}
+{{ $timeLabel := $photoWhen.display | default $tripWhen.display }}
+{{ $spot := $photo.spot | default (dict) }}
+{{ $thumbnailFocus := lower ($photo.thumbnail_focus | default "center") }}
+{{ if not (in (slice "top" "center" "bottom") $thumbnailFocus) }}
+  {{ $thumbnailFocus = "center" }}
+{{ end }}
+<figure class="travel-photo">
+  {{ if $image }}
+    {{ $thumb := $image.Fit "900x700 webp q82" }}
+    {{ $full := $image.Fit "1800x1400 webp q86" }}
+    <a href="{{ $full.RelPermalink }}" target="_blank" rel="noopener" aria-label="Open full-size photograph">
+      <img
+        class="travel-photo-focus-{{ $thumbnailFocus }}"
+        src="{{ $thumb.RelPermalink }}"
+        width="{{ $thumb.Width }}"
+        height="{{ $thumb.Height }}"
+        loading="lazy"
+        alt="{{ $photo.alt | default (printf "Travel photograph from %s" $page.Title) }}"
+      >
+    </a>
+  {{ else }}
+    <div class="travel-photo-missing">Photo file not found: <code>{{ $photo.file }}</code></div>
+  {{ end }}
+  <figcaption>
+    {{ if or $timeLabel $spot.name $spot.area }}
+      {{ $hasPrevious := false }}
+      <p class="travel-photo-meta">
+        {{ with $timeLabel }}<time>{{ . }}</time>{{ $hasPrevious = true }}{{ end }}
+        {{ with $spot.name }}{{ if $hasPrevious }}<i aria-hidden="true">·</i>{{ end }}<span>{{ . }}</span>{{ $hasPrevious = true }}{{ end }}
+        {{ with $spot.area }}{{ if $hasPrevious }}<i aria-hidden="true">·</i>{{ end }}<span>{{ . }}</span>{{ $hasPrevious = true }}{{ end }}
+        {{ with $spot.kind }}{{ if $hasPrevious }}<i aria-hidden="true">·</i>{{ end }}<small>{{ humanize . }}</small>{{ end }}
+      </p>
+    {{ end }}
+    {{ with $photo.note }}<p class="travel-photo-note">{{ . }}</p>{{ end }}
+  </figcaption>
+</figure>

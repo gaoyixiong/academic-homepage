@@ -1,0 +1,78 @@
+{{ $page := . }}
+{{ $trips := .Params.trips | default (slice) }}
+{{ $hasDetailedTrip := false }}
+<template id="travel-template-{{ .Params.id }}">
+  <article class="travel-place-detail">
+    <header class="travel-detail-header">
+      <nav class="travel-detail-breadcrumb" aria-label="Administrative path">
+        <span>{{ .Params.geography.continent.label }}</span>
+        {{ if ne .Params.geography.country_or_area.label .Title }}
+          <i aria-hidden="true">›</i><span>{{ .Params.geography.country_or_area.label }}</span>
+        {{ end }}
+        {{ range .Params.geography.admin_path }}
+          <i aria-hidden="true">›</i><span title="{{ humanize .kind }}">{{ .label }}</span>
+        {{ end }}
+        {{ if ne .Params.geography.country_or_area.label .Title }}
+          <i aria-hidden="true">›</i><span>{{ .Title }}</span>
+        {{ end }}
+      </nav>
+      <div class="travel-detail-title-row">
+        <h2>{{ .Title }}</h2>
+        <span class="travel-detail-kind">{{ .Params.geography.card_badge | default .Params.geography.place_kind.label }}</span>
+      </div>
+      {{ if gt (len .Params.geography.admin_path) 0 }}
+        <dl class="travel-admin-list">
+          {{ range .Params.geography.admin_path }}
+            <div><dt>{{ humanize .kind }}</dt><dd>{{ .label }}</dd></div>
+          {{ end }}
+        </dl>
+      {{ end }}
+    </header>
+
+    {{ with .Content }}
+      {{ if gt (len (plainify .)) 0 }}<div class="travel-detail-description">{{ . }}</div>{{ end }}
+    {{ end }}
+
+    <div class="travel-trip-list">
+      {{ range $trips }}
+        {{ $trip := . }}
+        {{ $when := .when | default (dict) }}
+        {{ $photos := .photos | default (slice) }}
+        {{ $photosForDisplay := slice }}
+        {{ range $photoIndex, $photo := $photos }}
+          {{ $photoWhen := $photo.when | default (dict) }}
+          {{ $photoStart := $photoWhen.start | default $when.start | default "9999-12-31" }}
+          {{ $sortKey := printf "%s|%09d" $photoStart $photoIndex }}
+          {{ $photosForDisplay = $photosForDisplay | append (dict "photo" $photo "sort_key" $sortKey) }}
+        {{ end }}
+        {{ $timeLabel := $when.display | default "" }}
+        {{ $hasTripContent := or (ne $timeLabel "") (ne (.note | default "") "") (gt (len $photos) 0) }}
+        {{ if $hasTripContent }}
+          {{ $hasDetailedTrip = true }}
+          <section class="travel-trip travel-trip-{{ .status }}">
+            <header class="travel-trip-header">
+              <div>
+                {{ if eq .status "planned" }}<span class="travel-status travel-status-planned">Planned</span>{{ end }}
+                {{ with $timeLabel }}<time>{{ . }}</time>{{ end }}
+              </div>
+              {{ with .note }}<p>{{ . }}</p>{{ end }}
+            </header>
+            {{ if gt (len $photos) 0 }}
+              <div class="travel-photo-grid">
+                {{ range sort $photosForDisplay "sort_key" "asc" }}
+                  {{ partial "travel/photo.html" (dict "page" $page "trip" $trip "photo" .photo) }}
+                {{ end }}
+              </div>
+            {{ end }}
+          </section>
+        {{ end }}
+      {{ end }}
+    </div>
+
+    {{ if not $hasDetailedTrip }}
+      <div class="travel-empty travel-empty-detail">
+        <p>No dated visits or photographs have been added yet.</p>
+      </div>
+    {{ end }}
+  </article>
+</template>

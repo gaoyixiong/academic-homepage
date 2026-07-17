@@ -1,0 +1,36 @@
+{{ define "main" }}
+
+{{ if eq .Section "publications" }}
+  <div class="max-w-prose mx-auto flex justify-center">
+    <article class="prose prose-slate lg:prose-xl dark:prose-invert w-full text-center">
+      <h1 class="site-page-title">{{ .Title }}</h1>
+      {{ with .Content }}
+        <div class="text-left">{{ . }}</div>
+      {{ end }}
+    </article>
+  </div>
+{{ else }}
+  <div class="max-w-prose mx-auto flex justify-center">
+    <article class="prose prose-slate lg:prose-xl dark:prose-invert">
+      <h1 class="site-page-title">{{ .Title }}</h1>
+      {{ .Content }}
+    </article>
+  </div>
+{{ end }}
+
+{{ $view := .Params.view | default "card" }}
+{{ $block := . }}
+
+<div class="{{ if eq .Section "publications" }}publications-list-results {{ end }}flex flex-col items-center px-4 sm:px-6">
+  {{ partial "functions/render_view" (dict "fragment" "start" "page" $block "item" . "view" $view) }}
+
+  {{ $paginator := .Paginate .Pages.ByDate.Reverse }}
+  {{ range $index, $item := $paginator.Pages }}
+    {{ partial "functions/render_view" (dict "page" . "item" . "view" $view "index" $index) }}
+  {{ end }}
+
+  {{ partial "functions/render_view" (dict "fragment" "end" "page" $block "item" . "view" $view) }}
+  {{ partial "components/paginator" . }}
+</div>
+
+{{ end }}

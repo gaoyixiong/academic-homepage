@@ -1,0 +1,215 @@
+{{ define "main" }}
+{{ $places := .Pages.ByTitle }}
+{{ $visitedPlaces := slice }}
+{{ $plannedPlaces := slice }}
+{{ $plans := slice }}
+{{ $mapPlaces := slice }}
+{{ $areaIDs := slice }}
+{{ $continentIDs := slice }}
+
+{{ range $places }}
+  {{ $page := . }}
+  {{ $trips := .Params.trips | default (slice) }}
+  {{ $visitedTrips := where $trips "status" "visited" }}
+  {{ $plannedTrips := where $trips "status" "planned" }}
+  {{ $hasVisited := gt (len $visitedTrips) 0 }}
+  {{ $hasPlanned := gt (len $plannedTrips) 0 }}
+  {{ if $hasVisited }}{{ $visitedPlaces = $visitedPlaces | append . }}{{ end }}
+  {{ if $hasPlanned }}{{ $plannedPlaces = $plannedPlaces | append . }}{{ end }}
+  {{ range $plannedTrips }}
+    {{ $plans = $plans | append (dict "page" $page "trip" .) }}
+  {{ end }}
+  {{ $areaIDs = $areaIDs | append .Params.geography.country_or_area.id }}
+  {{ $continentIDs = $continentIDs | append .Params.geography.continent.id }}
+
+  {{ $pathParts := slice .Params.geography.country_or_area.label }}
+  {{ range .Params.geography.admin_path }}
+    {{ $pathParts = $pathParts | append .label }}
+  {{ end }}
+  {{ with .Params.coordinates }}
+    {{ $mapPlaces = $mapPlaces | append (dict
+      "id" $page.Params.id
+      "title" $page.Title
+      "path" (delimit $pathParts " · ")
+      "lat" .lat
+      "lon" .lon
+      "zoom" (.zoom | default 9)
+      "visited" $hasVisited
+      "planned" $hasPlanned
+    ) }}
+  {{ end }}
+{{ end }}
+
+{{ $areaIDs = $areaIDs | uniq }}
+{{ $continentIDs = $continentIDs | uniq }}
+{{ $continentOrder := slice
+  (dict "id" "asia" "label" "Asia")
+  (dict "id" "europe" "label" "Europe")
+  (dict "id" "north-america" "label" "North America")
+  (dict "id" "south-america" "label" "South America")
+  (dict "id" "africa" "label" "Africa")
+  (dict "id" "oceania" "label" "Oceania")
+  (dict "id" "antarctica" "label" "Antarctica")
+}}
+
+<main class="travel-page max-w-screen-xl" data-travel-root>
+  <header class="travel-header">
+    <div class="travel-heading-copy">
+      <h1 class="travel-title">{{ .Title }}</h1>
+      <div class="travel-lede">{{ .Content }}</div>
+    </div>
+    <dl class="travel-stats" aria-label="Travel summary">
+      <div><dt>Places</dt><dd>{{ len $visitedPlaces }}</dd></div>
+      <div><dt>Countries &amp; regions</dt><dd>{{ len $areaIDs }}</dd></div>
+      <div><dt>Continents</dt><dd>{{ len $continentIDs }}</dd></div>
+      <div><dt>Future plans</dt><dd>{{ len $plans }}</dd></div>
+    </dl>
+  </header>
+
+  <section class="travel-map-section" aria-labelledby="travel-map-heading">
+    <div class="travel-section-heading travel-map-heading-row">
+      <div>
+        <h2 id="travel-map-heading">Travel map</h2>
+      </div>
+      <div class="travel-filters" role="group" aria-label="Filter places">
+        <button type="button" data-travel-filter="all" aria-pressed="true">All <span>{{ len $places }}</span></button>
+        <button type="button" data-travel-filter="visited" aria-pressed="false">Visited <span>{{ len $visitedPlaces }}</span></button>
+        <button type="button" data-travel-filter="planned" aria-pressed="false">Planned <span>{{ len $plannedPlaces }}</span></button>
+      </div>
+    </div>
+    <div class="travel-map-card">
+      <div id="travel-map" class="travel-map" role="application" aria-label="Interactive map of travel destinations">
+        <div class="travel-map-loading">Loading the map…</div>
+      </div>
+      <div class="travel-map-legend" aria-label="Map legend">
+        <span><i class="travel-legend-dot travel-legend-visited"></i>Visited</span>
+        <span><i class="travel-legend-dot travel-legend-planned"></i>Planned</span>
+      </div>
+    </div>
+    <div class="travel-empty travel-filter-empty" data-travel-filter-empty hidden>
+      <p>No places match this filter yet.</p>
+    </div>
+  </section>
+
+  <section class="travel-future" aria-labelledby="travel-future-heading">
+    <div class="travel-section-heading">
+      <h2 id="travel-future-heading">Future travel plans</h2>
+    </div>
+    {{ if gt (len $plans) 0 }}
+      <div class="travel-plan-grid">
+        {{ range $plans }}
+          {{ $page := .page }}
+          {{ $trip := .trip }}
+          <article class="travel-plan-card">
+            <button type="button" data-travel-open="{{ $page.Params.id }}" aria-haspopup="dialog">
+              <span class="travel-plan-place">{{ $page.Title }}</span>
+              {{ with $trip.when.display }}<span class="travel-plan-time">{{ . }}</span>{{ end }}
+              {{ with $trip.note }}<span class="travel-plan-note">{{ . }}</span>{{ end }}
+            </button>
+          </article>
+        {{ end }}
+      </div>
+    {{ else }}
+      <div class="travel-empty travel-empty-plan">
+        <p>No public plans at the moment.</p>
+      </div>
+    {{ end }}
+  </section>
+
+  <section class="travel-browse" aria-labelledby="travel-browse-heading">
+    <div class="travel-section-heading">
+      <h2 id="travel-browse-heading">Browse by region</h2>
+      <p>Select a place to see its full administrative path, visits, photographs, and notes.</p>
+    </div>
+
+    <div class="travel-continent-list">
+      {{ range $continentOrder }}
+        {{ $continent := . }}
+        {{ $continentPlaces := where $places "Params.geography.continent.id" $continent.id }}
+        {{ if gt (len $continentPlaces) 0 }}
+          <section class="travel-continent" data-travel-continent>
+            <header class="travel-continent-header">
+              <h3>{{ $continent.label }}</h3>
+              <span>{{ len $continentPlaces }} {{ cond (eq (len $continentPlaces) 1) "place" "places" }}</span>
+            </header>
+            {{ $continentAreaIDs := slice }}
+            {{ range $continentPlaces }}
+              {{ $continentAreaIDs = $continentAreaIDs | append .Params.geography.country_or_area.id }}
+            {{ end }}
+            {{ $continentAreaIDs = $continentAreaIDs | uniq | sort }}
+            <div class="travel-area-list">
+              {{ range $continentAreaIDs }}
+                {{ $areaID := . }}
+                {{ $areaPlaces := where $continentPlaces "Params.geography.country_or_area.id" $areaID }}
+                {{ $firstPlace := index $areaPlaces 0 }}
+                <details class="travel-area" data-travel-area open>
+                  <summary>
+                    <span>{{ $firstPlace.Params.geography.country_or_area.label }}</span>
+                    <small>{{ len $areaPlaces }} {{ cond (eq (len $areaPlaces) 1) "place" "places" }}</small>
+                  </summary>
+                  <div class="travel-place-grid">
+                    {{ range $areaPlaces.ByTitle }}
+                      {{ $trips := .Params.trips | default (slice) }}
+                      {{ $hasVisited := gt (len (where $trips "status" "visited")) 0 }}
+                      {{ $hasPlanned := gt (len (where $trips "status" "planned")) 0 }}
+                      <article
+                        class="travel-place-entry"
+                        id="place-{{ .Params.id }}"
+                        data-travel-place
+                        data-has-visited="{{ $hasVisited }}"
+                        data-has-planned="{{ $hasPlanned }}"
+                      >
+                        <button type="button" class="travel-place-button" data-travel-open="{{ .Params.id }}" aria-haspopup="dialog">
+                          <span class="travel-place-topline">
+                            <strong>{{ .Title }}</strong>
+                            {{ with .Params.geography.card_badge }}
+                              <span class="travel-place-kind">{{ . }}</span>
+                            {{ end }}
+                          </span>
+                          <span class="travel-place-path">
+                            {{ if gt (len .Params.geography.admin_path) 0 }}
+                              {{ range $index, $part := .Params.geography.admin_path }}{{ if $index }}<i aria-hidden="true">›</i>{{ end }}<span>{{ $part.label }}</span>{{ end }}
+                            {{ else if eq .Params.geography.place_kind.id "municipality" }}
+                              <span>{{ .Title }}</span>
+                            {{ else }}
+                              <span>{{ .Params.geography.country_or_area.label }}</span>
+                            {{ end }}
+                          </span>
+                          {{ if $hasPlanned }}
+                            <span class="travel-place-statuses">
+                              <span class="travel-status travel-status-planned">Planned</span>
+                            </span>
+                          {{ end }}
+                        </button>
+                      </article>
+                    {{ end }}
+                  </div>
+                </details>
+              {{ end }}
+            </div>
+          </section>
+        {{ end }}
+      {{ end }}
+    </div>
+  </section>
+
+  <p class="travel-geographic-note">
+    Geographic names and groupings are used solely to organize personal travel records. They do not express a position on sovereignty, political status, or boundary claims. Administrative boundaries are intentionally de-emphasized on the map.
+  </p>
+
+  <dialog class="travel-dialog" data-travel-dialog aria-label="Travel place details">
+    <div class="travel-dialog-shell">
+      <form method="dialog" class="travel-dialog-close-form">
+        <button type="submit" class="travel-dialog-close" aria-label="Close place details">×</button>
+      </form>
+      <div class="travel-dialog-content" data-travel-dialog-content></div>
+    </div>
+  </dialog>
+
+  {{ range $places }}
+    {{ partial "travel/place-template.html" . }}
+  {{ end }}
+
+  <script id="travel-map-data" type="application/json">{{ jsonify $mapPlaces | safeJS }}</script>
+</main>
+{{ end }}

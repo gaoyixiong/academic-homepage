@@ -1,0 +1,10 @@
+{{ if eq .Section "travel" }}
+  {{ $travelCSS := resources.Get "css/travel.css" | minify | fingerprint "sha256" }}
+  {{ $travelJS := resources.Get "js/travel.js" | minify | fingerprint "sha256" }}
+  <link rel="preconnect" href="https://unpkg.com" crossorigin>
+  <link rel="preconnect" href="https://tiles.openfreemap.org" crossorigin>
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.css">
+  <link rel="stylesheet" href="{{ $travelCSS.RelPermalink }}" integrity="{{ $travelCSS.Data.Integrity }}">
+  <script defer src="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.js"></script>
+  <script defer src="{{ $travelJS.RelPermalink }}" integrity="{{ $travelJS.Data.Integrity }}"></script>
+{{ end }}

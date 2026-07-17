@@ -35,12 +35,9 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Yixiong Gao. This work is licensed under {license}'
+    notice: '© {year} Yixiong Gao'
     license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+      enable: false
 
 # Hide the Hugo Blox attribution in the site footer.
 i_am_a_sponsor: true
@@ -55,6 +52,7 @@ locale:
 # Site features
 features:
   math:
-    enable: true
+    # Publication pages use MathJax via the custom head hook.
+    enable: false
   privacy_pack:
     enable: false
