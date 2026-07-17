@@ -52,7 +52,7 @@ trips:
         when:
           start: "2024-01-13"
           display: "13 January 2024"
-        note: With my teammates from Minming Fan Club during the 2023 ICPC Asia East Continent Final Contest, where we received a silver medal.
+        note: With my teammates and coach from Minming Fan Club during the 2023 ICPC Asia East Continent Final Contest.
         spot:
           name: Shanghai University
           kind: competition-venue
