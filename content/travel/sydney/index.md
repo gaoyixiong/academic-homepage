@@ -28,7 +28,6 @@ trips:
         note: The University of Sydney’s historic Quadrangle on my first day in the city.
         spot:
           name: The Quadrangle
-          kind: university-landmark
           area: University of Sydney
       - file: manly-beach-cliffs-2024-12-02.jpeg
         alt: Yixiong Gao sitting on sandstone cliffs beside Manly Beach
@@ -38,7 +37,6 @@ trips:
         note: Sitting on the cliffs beside Manly Beach during an afternoon by the coast.
         spot:
           name: Manly Beach
-          kind: beach
           area: Manly, Sydney
       - file: home-alone-in-concert-2024-12-07.jpeg
         alt: Home Alone in Concert inside the Sydney Opera House Concert Hall
@@ -48,7 +46,6 @@ trips:
         note: Home Alone in Concert at the Sydney Opera House during the break between the summer school and ISAAC 2024.
         spot:
           name: Concert Hall, Sydney Opera House
-          kind: concert-hall
           area: Bennelong Point, Sydney
       - file: sydney-harbour-landmarks-2024-12-07.jpeg
         alt: The Sydney Opera House and Sydney Harbour Bridge seen together across the harbour
@@ -58,7 +55,6 @@ trips:
         note: The Sydney Opera House and Sydney Harbour Bridge together during a walk after the concert.
         spot:
           name: Sydney Harbour
-          kind: harbour
           area: Sydney
       - file: hamilton-sydney-lyric-2024-12-08.jpeg
         alt: The stage inside Sydney Lyric Theatre before a performance of Hamilton
@@ -68,7 +64,6 @@ trips:
         note: Seeing Hamilton at the Sydney Lyric Theatre in The Star on the day before ISAAC 2024.
         spot:
           name: Sydney Lyric Theatre
-          kind: theatre
           area: The Star, Pyrmont
       - file: isaac-2024-presentation-2024-12-09.jpeg
         alt: Yixiong Gao presenting Revisit the Scheduling Problem with Calibrations at ISAAC 2024
@@ -78,7 +73,6 @@ trips:
         note: Presenting our accepted paper “Revisit the Scheduling Problem with Calibrations” at ISAAC 2024.
         spot:
           name: ISAAC 2024
-          kind: academic-conference
           area: Sydney
       - file: sydney-harbour-bridge-2024-12-11.jpeg
         alt: Yixiong Gao standing in front of Sydney Harbour Bridge at night
@@ -88,7 +82,6 @@ trips:
         note: By Sydney Harbour Bridge on my final evening before returning home.
         spot:
           name: Sydney Harbour Bridge
-          kind: landmark
           area: Sydney Harbour
 _build: { render: never, list: local, publishResources: false }
 ---

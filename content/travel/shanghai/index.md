@@ -26,7 +26,6 @@ trips:
         note: Shanghai University Library during my first visit for the ICPC Asia East Continent Final Contest.
         spot:
           name: Shanghai University Library
-          kind: university-library
           area: Baoshan Campus, Shanghai University
       - file: hdu-t04-silver-medal-2023-03-26.jpg
         alt: Team HDU-T04 holding a silver award at the ICPC contest
@@ -36,7 +35,6 @@ trips:
         note: With my teammates from HDU-T04 after receiving a silver medal at the 2022 ICPC Asia East Continent Final Contest.
         spot:
           name: Shanghai University
-          kind: competition-venue
           area: Baoshan Campus
   - id: shanghai-2024-icpc-ec-final
     status: visited
@@ -52,10 +50,9 @@ trips:
         when:
           start: "2024-01-13"
           display: "13 January 2024"
-        note: With my teammates and coach from Minming Fan Club during the 2023 ICPC Asia East Continent Final Contest.
+        note: With my teammates from Minming Fan Club during the 2023 ICPC Asia East Continent Final Contest, where we received a silver medal.
         spot:
           name: Shanghai University
-          kind: competition-venue
           area: Baoshan Campus
       - file: reunion-2024-01-14.jpg
         alt: A reunion with my high-school competitive programming classmates in Shanghai
@@ -65,7 +62,6 @@ trips:
         note: Reuniting in Shanghai with classmates who learned competitive programming with me in high school.
         spot:
           name: Shanghai
-          kind: city
   - id: shanghai-2026-universal-cup-finals
     status: visited
     when:
@@ -83,7 +79,6 @@ trips:
         note: Reuniting with friends I trained with in competitive programming as an undergraduate, who now work at Huawei.
         spot:
           name: Huawei Lianqiu Lake R&D Center
-          kind: research-campus
           area: Qingpu District, Shanghai
       - file: lianqiu-lake-campus-building-2026-05-06.jpg
         alt: An illuminated building at Huawei’s Lianqiu Lake campus at night
@@ -93,7 +88,6 @@ trips:
         note: An illuminated campus building at Lianqiu Lake after nightfall.
         spot:
           name: Huawei Lianqiu Lake R&D Center
-          kind: research-campus
           area: Qingpu District, Shanghai
       - file: lianqiu-lake-campus-bridge-2026-05-06.jpg
         alt: A purple-lit arched bridge reflected in Lianqiu Lake at night
@@ -103,7 +97,6 @@ trips:
         note: An illuminated arched bridge reflected in the lake.
         spot:
           name: Huawei Lianqiu Lake R&D Center
-          kind: research-campus
           area: Qingpu District, Shanghai
       - file: lianqiu-lake-campus-pavilion-2026-05-06.jpg
         alt: A waterfront pavilion on the Lianqiu Lake campus at night
@@ -113,7 +106,6 @@ trips:
         note: A waterfront pavilion on the Lianqiu Lake campus at night.
         spot:
           name: Huawei Lianqiu Lake R&D Center
-          kind: research-campus
           area: Qingpu District, Shanghai
       - file: universal-cup-opening-ceremony-2026-05-08.jpg
         alt: Hosting the opening ceremony of the 2026 Universal Cup Finals
@@ -123,7 +115,6 @@ trips:
         note: Hosting the opening ceremony of the 2026 Universal Cup Finals.
         spot:
           name: 2026 Universal Cup Finals
-          kind: event-stage
           area: Huawei Lianqiu Lake R&D Center
       - file: with-tourist-2026-05-10.jpg
         alt: A photo with Gennady Korotkevich at the 2026 Universal Cup Finals
@@ -134,7 +125,6 @@ trips:
         note: With Gennady Korotkevich (tourist) during the 2026 Universal Cup Finals.
         spot:
           name: 2026 Universal Cup Finals
-          kind: participant-photo
           area: Huawei Lianqiu Lake R&D Center
       - file: with-maroonrk-2026-05-10.jpg
         alt: A photo with Riku Kawasaki at the 2026 Universal Cup Finals
@@ -145,7 +135,6 @@ trips:
         note: With Riku Kawasaki (maroonrk) during the 2026 Universal Cup Finals.
         spot:
           name: 2026 Universal Cup Finals
-          kind: participant-photo
           area: Huawei Lianqiu Lake R&D Center
       - file: interview-ko-osaga-2026-05-10.jpg
         alt: Interviewing Jaehyun Koo at the 2026 Universal Cup Finals
@@ -155,7 +144,6 @@ trips:
         note: Interviewing Jaehyun Koo (ko_osaga) during the 2026 Universal Cup Finals.
         spot:
           name: 2026 Universal Cup Finals
-          kind: interview-set
           area: Huawei Lianqiu Lake R&D Center
       - file: huawei-challenge-livestream-2026-05-09.jpg
         alt: Hosting the livestream for the Huawei Challenge Contest
@@ -165,7 +153,6 @@ trips:
         note: Hosting the livestream for the Huawei Challenge Contest.
         spot:
           name: 2026 Universal Cup Finals
-          kind: livestream-set
           area: Huawei Lianqiu Lake R&D Center
       - file: universal-cup-finals-livestream-2026-05-10.jpg
         alt: Hosting the livestream for the official Universal Cup Finals contest
@@ -175,7 +162,6 @@ trips:
         note: Hosting the livestream for the official contest of the 2026 Universal Cup Finals.
         spot:
           name: 2026 Universal Cup Finals
-          kind: livestream-set
           area: Huawei Lianqiu Lake R&D Center
 _build: { render: never, list: local, publishResources: false }
 ---

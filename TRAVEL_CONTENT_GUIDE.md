@@ -41,7 +41,6 @@ trips:
         note: Mist over the water before the paths became busy.
         spot:
           name: West Lake State Guest House
-          kind: hotel
           area: Xihu District
           coordinates: { lat: 30.2337, lon: 120.1370 }
           show_pin: false

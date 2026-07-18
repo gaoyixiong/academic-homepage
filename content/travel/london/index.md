@@ -28,7 +28,6 @@ trips:
         note: At King’s Cross before taking the train to County Durham for MAPSP 2026.
         spot:
           name: London King’s Cross
-          kind: railway-station
           area: King’s Cross, London
   - id: london-2026-after-mapsp
     status: visited
@@ -47,7 +46,6 @@ trips:
         note: Visiting Buckingham Palace during my final day in London.
         spot:
           name: Buckingham Palace
-          kind: royal-residence
           area: Westminster, London
       - file: palace-of-westminster-elizabeth-tower-2026-06-27.jpg
         alt: The Palace of Westminster, Elizabeth Tower, and Westminster Bridge seen across the River Thames
@@ -57,7 +55,6 @@ trips:
         note: The Palace of Westminster and Elizabeth Tower, viewed across the Thames from near the London Eye.
         spot:
           name: Palace of Westminster and Elizabeth Tower
-          kind: landmark-view
           area: Viewed from the South Bank, London
       - file: british-museum-china-gallery-2026-06-27.jpg
         alt: A large bronze incense burner in the British Museum’s China gallery
@@ -67,7 +64,6 @@ trips:
         note: A bronze incense burner in Room 33, the British Museum’s China gallery.
         spot:
           name: British Museum, Room 33
-          kind: museum-gallery
           area: Bloomsbury, London
 _build: { render: never, list: local, publishResources: false }
 ---

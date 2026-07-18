@@ -28,7 +28,6 @@ trips:
         note: A broad view of the farmland near Redworth Hall during a walk around the conference venue.
         spot:
           name: Farmland near Redworth Hall
-          kind: farmland
           area: County Durham, England
       - file: raby-castle-2026-06-24.jpg
         alt: The stone exterior of Raby Castle beneath a bright blue sky
@@ -38,7 +37,6 @@ trips:
         note: Visiting Raby Castle during the MAPSP 2026 social event.
         spot:
           name: Raby Castle
-          kind: castle
           area: Staindrop, County Durham
 _build: { render: never, list: local, publishResources: false }
 ---

@@ -34,7 +34,6 @@
         {{ with $timeLabel }}<time>{{ . }}</time>{{ $hasPrevious = true }}{{ end }}
         {{ with $spot.name }}{{ if $hasPrevious }}<i aria-hidden="true">·</i>{{ end }}<span>{{ . }}</span>{{ $hasPrevious = true }}{{ end }}
         {{ with $spot.area }}{{ if $hasPrevious }}<i aria-hidden="true">·</i>{{ end }}<span>{{ . }}</span>{{ $hasPrevious = true }}{{ end }}
-        {{ with $spot.kind }}{{ if $hasPrevious }}<i aria-hidden="true">·</i>{{ end }}<small>{{ humanize . }}</small>{{ end }}
       </p>
     {{ end }}
     {{ with $photo.note }}<p class="travel-photo-note">{{ . }}</p>{{ end }}

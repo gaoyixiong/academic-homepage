@@ -737,14 +737,6 @@
   font-style: normal;
 }
 
-.travel-photo-meta small {
-  padding: 0.12rem 0.32rem;
-  border-radius: 99px;
-  background: var(--travel-surface);
-  font-size: 0.58rem;
-  text-transform: uppercase;
-}
-
 .travel-photo-note {
   display: -webkit-box;
   overflow: hidden;

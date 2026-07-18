@@ -27,7 +27,6 @@ trips:
         note: With my wife—my girlfriend and teammate at the time—after we received a gold award as team HDU-Eva.
         spot:
           name: Wuhan University
-          kind: university
           area: Wuhan, Hubei
 _build: { render: never, list: local, publishResources: false }
 ---

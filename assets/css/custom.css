@@ -97,9 +97,8 @@
 }
 
 /* On phones, publication entries become compact, full-width reading cards.
-   The theme's large invisible hover target is useful on desktop, but its
-   negative insets make the mobile list feel loose and can extend past the
-   card edge. */
+   Keep the theme's stretched title link so the whole card—including the
+   visible “Read more” prompt—is tappable, but constrain it to the card. */
 @media (max-width: 639px) {
   .publications-list-results {
     box-sizing: border-box;
@@ -149,9 +148,20 @@
     line-height: 1.45;
   }
 
-  .publications-list-results article h2 > div.absolute,
-  .publications-list-results article h2 a > span.absolute {
+  .publications-list-results article h2 > div.absolute {
     display: none;
+  }
+
+  .publications-list-results article h2 a > span.absolute {
+    display: block;
+    inset: -1rem -1rem -1.05rem;
+    border-radius: 0.875rem;
+    cursor: pointer;
+  }
+
+  .publications-list-results article h2 a:focus-visible > span.absolute {
+    outline: 2px solid currentColor;
+    outline-offset: -2px;
   }
 
   .publications-list-results article time.md\:hidden {

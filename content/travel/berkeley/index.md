@@ -29,7 +29,6 @@ trips:
         note: With my poster, “Online Judicial Case Assignment with Quality and Fairness Baselines,” at the 5th ACM Symposium on Computer Science and Law.
         spot:
           name: UC Berkeley
-          kind: conference-venue
           area: Berkeley, California
       - file: simons-institute-2026-03-06.jpg
         alt: Yixiong Gao outside the Simons Institute for the Theory of Computing at UC Berkeley
@@ -39,7 +38,6 @@ trips:
         note: After the conference, I visited the Simons Institute for the Theory of Computing while exploring the UC Berkeley campus.
         spot:
           name: Simons Institute for the Theory of Computing
-          kind: research-institute
           area: UC Berkeley
       - file: sather-gate-2026-03-06.jpg
         alt: Sather Gate beneath a clear blue sky at UC Berkeley
@@ -49,7 +47,6 @@ trips:
         note: Sather Gate, one of UC Berkeley’s best-known landmarks.
         spot:
           name: Sather Gate
-          kind: landmark
           area: UC Berkeley
       - file: sather-tower-2026-03-06.jpg
         alt: Sather Tower rising above the trees at UC Berkeley
@@ -59,7 +56,6 @@ trips:
         note: Sather Tower, the campanile overlooking the UC Berkeley campus.
         spot:
           name: Sather Tower
-          kind: landmark
           area: UC Berkeley
 _build: { render: never, list: local, publishResources: false }
 ---
