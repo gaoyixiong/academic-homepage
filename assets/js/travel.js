@@ -103,21 +103,7 @@
         button.setAttribute('aria-pressed', String(button.dataset.travelFilter === filter));
       });
 
-      let visibleCount = 0;
-      root.querySelectorAll('[data-travel-place]').forEach((entry) => {
-        const visible = filter === 'all'
-          || (filter === 'visited' && entry.dataset.hasVisited === 'true')
-          || (filter === 'planned' && entry.dataset.hasPlanned === 'true');
-        entry.hidden = !visible;
-        if (visible) visibleCount += 1;
-      });
-
-      root.querySelectorAll('[data-travel-area]').forEach((area) => {
-        area.hidden = !area.querySelector('[data-travel-place]:not([hidden])');
-      });
-      root.querySelectorAll('[data-travel-continent]').forEach((continent) => {
-        continent.hidden = !continent.querySelector('[data-travel-area]:not([hidden])');
-      });
+      const visibleCount = places.filter((place) => matchesFilter(place, filter)).length;
       const emptyState = root.querySelector('[data-travel-filter-empty]');
       if (emptyState) emptyState.hidden = visibleCount !== 0;
 

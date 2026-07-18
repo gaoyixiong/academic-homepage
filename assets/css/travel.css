@@ -274,41 +274,49 @@
 
 .travel-plan-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-  gap: 0.8rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+  gap: 0.7rem;
 }
 
-.travel-plan-card button {
+.travel-plan-card {
+  min-width: 0;
+}
+
+.travel-plan-card .travel-place-button {
+  height: 100%;
+}
+
+.travel-plan-events {
   display: flex;
   width: 100%;
-  min-height: 8.5rem;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 1.15rem;
-  border: 1px dashed color-mix(in srgb, var(--travel-planned) 55%, var(--travel-border));
-  border-radius: 0.9rem;
-  background: var(--travel-planned-soft);
-  color: var(--travel-text);
-  cursor: pointer;
-  text-align: left;
+  gap: 0.65rem;
+  margin-top: 0.8rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--travel-border);
 }
 
-.travel-plan-place {
-  font-size: 1.05rem;
-  font-weight: 720;
+.travel-plan-event {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.travel-plan-event + .travel-plan-event {
+  padding-top: 0.65rem;
+  border-top: 1px solid var(--travel-border);
 }
 
 .travel-plan-time {
-  margin-top: 0.3rem;
-  color: var(--travel-planned);
-  font-size: 0.82rem;
-  font-weight: 650;
+  color: var(--travel-text);
+  font-size: 0.9rem;
+  font-weight: 680;
 }
 
 .travel-plan-note {
-  margin-top: 0.8rem;
+  margin-top: 0.4rem;
   color: var(--travel-muted);
-  font-size: 0.85rem;
+  font-size: 0.82rem;
   line-height: 1.5;
 }
 
@@ -474,12 +482,6 @@
   font-style: normal;
 }
 
-.travel-place-statuses {
-  display: flex;
-  gap: 0.4rem;
-  margin-top: 0.75rem;
-}
-
 .travel-status {
   display: inline-flex;
   align-items: center;
@@ -489,11 +491,6 @@
   font-weight: 720;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.travel-status-visited {
-  background: var(--travel-accent-soft);
-  color: var(--travel-accent);
 }
 
 .travel-status-planned {

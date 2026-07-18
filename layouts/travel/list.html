@@ -2,7 +2,6 @@
 {{ $places := .Pages.ByTitle }}
 {{ $visitedPlaces := slice }}
 {{ $plannedPlaces := slice }}
-{{ $plans := slice }}
 {{ $mapPlaces := slice }}
 {{ $areaIDs := slice }}
 {{ $continentIDs := slice }}
@@ -14,13 +13,12 @@
   {{ $plannedTrips := where $trips "status" "planned" }}
   {{ $hasVisited := gt (len $visitedTrips) 0 }}
   {{ $hasPlanned := gt (len $plannedTrips) 0 }}
-  {{ if $hasVisited }}{{ $visitedPlaces = $visitedPlaces | append . }}{{ end }}
-  {{ if $hasPlanned }}{{ $plannedPlaces = $plannedPlaces | append . }}{{ end }}
-  {{ range $plannedTrips }}
-    {{ $plans = $plans | append (dict "page" $page "trip" .) }}
+  {{ if $hasVisited }}
+    {{ $visitedPlaces = $visitedPlaces | append . }}
+    {{ $areaIDs = $areaIDs | append .Params.geography.country_or_area.id }}
+    {{ $continentIDs = $continentIDs | append .Params.geography.continent.id }}
   {{ end }}
-  {{ $areaIDs = $areaIDs | append .Params.geography.country_or_area.id }}
-  {{ $continentIDs = $continentIDs | append .Params.geography.continent.id }}
+  {{ if $hasPlanned }}{{ $plannedPlaces = $plannedPlaces | append . }}{{ end }}
 
   {{ $pathParts := slice .Params.geography.country_or_area.label }}
   {{ range .Params.geography.admin_path }}
@@ -62,7 +60,7 @@
       <div><dt>Places</dt><dd>{{ len $visitedPlaces }}</dd></div>
       <div><dt>Countries &amp; regions</dt><dd>{{ len $areaIDs }}</dd></div>
       <div><dt>Continents</dt><dd>{{ len $continentIDs }}</dd></div>
-      <div><dt>Future plans</dt><dd>{{ len $plans }}</dd></div>
+      <div><dt>Future plans</dt><dd>{{ len $plannedPlaces }}</dd></div>
     </dl>
   </header>
 
@@ -71,7 +69,7 @@
       <div>
         <h2 id="travel-map-heading">Travel map</h2>
       </div>
-      <div class="travel-filters" role="group" aria-label="Filter places">
+      <div class="travel-filters" role="group" aria-label="Filter map destinations">
         <button type="button" data-travel-filter="all" aria-pressed="true">All <span>{{ len $places }}</span></button>
         <button type="button" data-travel-filter="visited" aria-pressed="false">Visited <span>{{ len $visitedPlaces }}</span></button>
         <button type="button" data-travel-filter="planned" aria-pressed="false">Planned <span>{{ len $plannedPlaces }}</span></button>
@@ -87,7 +85,7 @@
       </div>
     </div>
     <div class="travel-empty travel-filter-empty" data-travel-filter-empty hidden>
-      <p>No places match this filter yet.</p>
+      <p>No map destinations match this filter.</p>
     </div>
   </section>
 
@@ -95,16 +93,36 @@
     <div class="travel-section-heading">
       <h2 id="travel-future-heading">Future travel plans</h2>
     </div>
-    {{ if gt (len $plans) 0 }}
+    {{ if gt (len $plannedPlaces) 0 }}
       <div class="travel-plan-grid">
-        {{ range $plans }}
-          {{ $page := .page }}
-          {{ $trip := .trip }}
+        {{ range $plannedPlaces }}
+          {{ $page := . }}
+          {{ $plannedTrips := where (.Params.trips | default (slice)) "status" "planned" }}
           <article class="travel-plan-card">
-            <button type="button" data-travel-open="{{ $page.Params.id }}" aria-haspopup="dialog">
-              <span class="travel-plan-place">{{ $page.Title }}</span>
-              {{ with $trip.when.display }}<span class="travel-plan-time">{{ . }}</span>{{ end }}
-              {{ with $trip.note }}<span class="travel-plan-note">{{ . }}</span>{{ end }}
+            <button type="button" class="travel-place-button" data-travel-open="{{ $page.Params.id }}" aria-haspopup="dialog">
+              <span class="travel-place-topline">
+                <strong>{{ $page.Title }}</strong>
+                {{ with $page.Params.geography.card_badge }}
+                  <span class="travel-place-kind">{{ . }}</span>
+                {{ end }}
+              </span>
+              <span class="travel-place-path">
+                {{ if gt (len $page.Params.geography.admin_path) 0 }}
+                  {{ range $index, $part := $page.Params.geography.admin_path }}{{ if $index }}<i aria-hidden="true">›</i>{{ end }}<span>{{ $part.label }}</span>{{ end }}
+                {{ else if eq $page.Params.geography.place_kind.id "municipality" }}
+                  <span>{{ $page.Title }}</span>
+                {{ else }}
+                  <span>{{ $page.Params.geography.country_or_area.label }}</span>
+                {{ end }}
+              </span>
+              <span class="travel-plan-events">
+                {{ range $plannedTrips }}
+                  <span class="travel-plan-event">
+                    {{ with .when.display }}<time class="travel-plan-time">{{ . }}</time>{{ end }}
+                    {{ with .note }}<span class="travel-plan-note">{{ . }}</span>{{ end }}
+                  </span>
+                {{ end }}
+              </span>
             </button>
           </article>
         {{ end }}
@@ -124,7 +142,7 @@
     <div class="travel-continent-list">
       {{ range $continentOrder }}
         {{ $continent := . }}
-        {{ $continentPlaces := where $places "Params.geography.continent.id" $continent.id }}
+        {{ $continentPlaces := where $visitedPlaces "Params.geography.continent.id" $continent.id }}
         {{ if gt (len $continentPlaces) 0 }}
           <section class="travel-continent" data-travel-continent>
             <header class="travel-continent-header">
@@ -148,15 +166,9 @@
                   </summary>
                   <div class="travel-place-grid">
                     {{ range $areaPlaces.ByTitle }}
-                      {{ $trips := .Params.trips | default (slice) }}
-                      {{ $hasVisited := gt (len (where $trips "status" "visited")) 0 }}
-                      {{ $hasPlanned := gt (len (where $trips "status" "planned")) 0 }}
                       <article
                         class="travel-place-entry"
                         id="place-{{ .Params.id }}"
-                        data-travel-place
-                        data-has-visited="{{ $hasVisited }}"
-                        data-has-planned="{{ $hasPlanned }}"
                       >
                         <button type="button" class="travel-place-button" data-travel-open="{{ .Params.id }}" aria-haspopup="dialog">
                           <span class="travel-place-topline">
@@ -174,11 +186,6 @@
                               <span>{{ .Params.geography.country_or_area.label }}</span>
                             {{ end }}
                           </span>
-                          {{ if $hasPlanned }}
-                            <span class="travel-place-statuses">
-                              <span class="travel-status travel-status-planned">Planned</span>
-                            </span>
-                          {{ end }}
                         </button>
                       </article>
                     {{ end }}
