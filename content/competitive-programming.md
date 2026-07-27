@@ -8,11 +8,11 @@ reading_time: false
 show_date_updated: false
 ---
 
-​    I am highly involved with Competitive Programming. I started doing competitive programming in high school. I won a Bronze Medal in the Asia-Pacific Informatics Olympiad (APIO) 2019. Then, I joined the Competitive Programming Team of Hangzhou Dianzi University, where I competed as the team leader (2020-2023) and served as the student coach (2022-2023). After that, I joined the Competitive Programming Team of the City University of Hong Kong, where I competed as the team leader (2023-2025) and served as the student coach (2023-2025). 
+  ​    I am highly involved with Competitive Programming. I started doing competitive programming in high school. I won a Bronze Medal in the Asia-Pacific Informatics Olympiad (APIO) 2019. Then, I joined the Competitive Programming Team of Hangzhou Dianzi University, where I competed as the team leader (2020-2023) and served as the student coach (2022-2023). After that, I joined the Competitive Programming Team of the City University of Hong Kong, where I competed as the team leader (2023-2025) and served as the student coach (2023-2025). 
 
-​    In my competitive programming career, I won five gold medals in the International Collegiate Programming Contest (ICPC) regional contests and three gold medals in the China Collegiate Programming Contest (CCPC) series contests. 
+  ​    In my competitive programming career, I won five gold medals in the International Collegiate Programming Contest (ICPC) regional contests and three gold medals in the China Collegiate Programming Contest (CCPC) series contests. 
 
-​    I am the founder of [eps.ac](https://eps.ac/), an algorithmic problem-setting group, and serve as a chief judge for multiple official contests. I am also a member of the [Universal Cup](https://ucup.ac/) Organizing Committee. You can find me on [eps.ac](https://eps.ac/members/colin/), [Universal Cup](https://ucup.ac/about/members/#yixiong-gao), [QOJ](https://qoj.ac/user/profile/SGColin), [Codeforces](https://codeforces.com/profile/SGColin), and [LeetCode](https://leetcode.cn/u/yixionggao/).
+  ​    I am the founder of [eps.ac](https://eps.ac/), an algorithmic problem-setting group, and serve as a chief judge for multiple official contests. I am also a member of the [Universal Cup](https://ucup.ac/) Organizing Committee. You can find me on [eps.ac](https://eps.ac/members/colin/), [Universal Cup](https://ucup.ac/about/members/#yixiong-gao), [QOJ](https://qoj.ac/user/profile/SGColin), [Codeforces](https://codeforces.com/profile/SGColin), and [LeetCode](https://leetcode.cn/u/yixionggao/).
 
 ### Problem Setting and Judging
 
@@ -44,12 +44,11 @@ Other contests:
 
 International Collegiate Programming Contest (ICPC) series:
 
-+ [Dec. 2024] [Silver in the 49th ICPC Asia-East Continent Final](icpc-49-ecfinal.pdf)
++ [Dec. 2024] [Silver in the 49th ICPC Asia-East Final](icpc-49-ecfinal.pdf)
 + [Nov. 2024] [Gold in the 49th ICPC Asia Hangzhou Regional](icpc-49-hangzhou.pdf)
-+ [Apr. 2024] [Gold in the 48th ICPC China Wuhan Invitational](icpc-48-wuhan.pdf)
-+ [Jan. 2024] [Silver in the 48th ICPC Asia-East Continent Final](icpc-48-ecfinal.pdf)
++ [Jan. 2024] [Silver in the 48th ICPC Asia-East Final](icpc-48-ecfinal.pdf)
 + [Dec. 2023] [Gold in the 48th ICPC Asia Hangzhou Regional](icpc-48-hangzhou.pdf)
-+ [Mar. 2023] [Silver in the 47th ICPC Asia-East Continent Final](icpc-47-ecfinal.pdf)
++ [Mar. 2023] [Silver in the 47th ICPC Asia-East Final](icpc-47-ecfinal.pdf)
 + [Dec. 2022] [Gold in the 47th ICPC Asia Nanjing Regional](icpc-47-nanjing.pdf)
 + [Nov. 2022] [Gold in the 47th ICPC Asia Hefei Regional](icpc-47-hefei.pdf)
 + [Dec. 2020] [Gold in the 45th ICPC Asia Jinan Regional](icpc-45-jinan.pdf)
