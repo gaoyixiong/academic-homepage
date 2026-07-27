@@ -18,7 +18,7 @@ show_date_updated: false
 
 International Collegiate Programming Contest (ICPC) series:
 
-+ [Dec. 2026] [2026 ICPC China Shenzhen Invitational](https://qoj.ac/contest/3588)
++ [Dec. 2026] [The 2026 ICPC China Shenzhen Invitational](https://qoj.ac/contest/3588)
 + [Sep. 2024] [The 49th ICPC Asia EC Regionals Online Contest (II)](https://codeforces.com/gym/105358)
 + [Sep. 2023] [The 48th ICPC Asia EC Regionals Online Contest (I)](https://codeforces.com/gym/104639)
 
@@ -45,19 +45,19 @@ Other contests:
 International Collegiate Programming Contest (ICPC) series:
 
 + [Dec. 2024] [Silver in the 49th ICPC Asia-East Final](icpc-49-ecfinal.pdf)
-+ [Nov. 2024] [Gold in the 49th ICPC Asia Hangzhou Regional](icpc-49-hangzhou.pdf)
++ [Nov. 2024] [Gold in the 49th ICPC Asia Hangzhou](icpc-49-hangzhou.pdf)
 + [Jan. 2024] [Silver in the 48th ICPC Asia-East Final](icpc-48-ecfinal.pdf)
-+ [Dec. 2023] [Gold in the 48th ICPC Asia Hangzhou Regional](icpc-48-hangzhou.pdf)
++ [Dec. 2023] [Gold in the 48th ICPC Asia Hangzhou](icpc-48-hangzhou.pdf)
 + [Mar. 2023] [Silver in the 47th ICPC Asia-East Final](icpc-47-ecfinal.pdf)
-+ [Dec. 2022] [Gold in the 47th ICPC Asia Nanjing Regional](icpc-47-nanjing.pdf)
-+ [Nov. 2022] [Gold in the 47th ICPC Asia Hefei Regional](icpc-47-hefei.pdf)
-+ [Dec. 2020] [Gold in the 45th ICPC Asia Jinan Regional](icpc-45-jinan.pdf)
++ [Dec. 2022] [Gold in the 47th ICPC Asia Nanjing](icpc-47-nanjing.pdf)
++ [Nov. 2022] [Gold in the 47th ICPC Asia Hefei](icpc-47-hefei.pdf)
++ [Dec. 2020] [Gold in the 45th ICPC Asia Jinan](icpc-45-jinan.pdf)
 
 China Collegiate Programming Contest (CCPC) series:
 
-+ [Nov. 2023] [Gold in the 9th CCPC Harbin Site](ccpc-9-harbin.jpg)
-+ [Nov. 2022] [Gold in the 8th CCPC Guangzhou Site](ccpc-8-guangzhou.jpg)
-+ [Nov. 2022] [Gold in the 8th CCPC Weihai Site](ccpc-8-weihai.jpg)
++ [Nov. 2023] [Gold in the 9th CCPC Harbin](ccpc-9-harbin.jpg)
++ [Nov. 2022] [Gold in the 8th CCPC Guangzhou](ccpc-8-guangzhou.jpg)
++ [Nov. 2022] [Gold in the 8th CCPC Weihai](ccpc-8-weihai.jpg)
 
 Other contests:
 
