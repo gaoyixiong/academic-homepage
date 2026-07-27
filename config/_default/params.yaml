@@ -35,7 +35,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Yixiong Colin Gao'
+    notice: '© {year} Yixiong Gao'
     license:
       enable: false
 
