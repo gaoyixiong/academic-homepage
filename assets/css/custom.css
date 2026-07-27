@@ -6,19 +6,14 @@
   }
 }
 
-/* Competitive Programming uses the same compact desktop canvas as Travel.
-   Its introduction keeps a comfortable reading measure, followed by two
-   balanced editorial columns on wide screens. */
+/* Competitive Programming uses a canvas 10% wider than Travel, with its
+   introduction spanning the same full width as the two-column section. */
 .competitive-programming-page {
-  max-width: 64rem;
+  max-width: 70.4rem;
 }
 
 .competitive-programming-page .prose {
   max-width: none;
-}
-
-.competitive-programming-page .competitive-programming-intro {
-  max-width: 44.8rem;
 }
 
 .competitive-programming-columns {
