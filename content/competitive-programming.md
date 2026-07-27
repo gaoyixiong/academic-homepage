@@ -16,13 +16,13 @@ show_date_updated: false
 
 ### Problem Setting and Judging
 
-International Collegiate Programming Contest (ICPC) series:
+International Collegiate Programming Contest (ICPC):
 
 + [Dec. 2026] [The 2026 ICPC China Shenzhen Invitational](https://qoj.ac/contest/3588)
 + [Sep. 2024] [The 49th ICPC Asia EC Regionals Online Contest (II)](https://codeforces.com/gym/105358)
 + [Sep. 2023] [The 48th ICPC Asia EC Regionals Online Contest (I)](https://codeforces.com/gym/104639)
 
-China Collegiate Programming Contest (CCPC) series:
+China Collegiate Programming Contest (CCPC):
 
 + [Oct. 2025] [The 10th CCPC Women's](https://qoj.ac/contest/2564) & [Vocational Division](https://qoj.ac/contest/2565)
 + [May. 2025] [The 8th Guangxi Collegiate Programming Contest](https://ac.nowcoder.com/acm/contest/110811)
@@ -36,13 +36,13 @@ Training Camps:
 + [Jul. 2024] [2024 HDU Multi-University Training Contest 3](https://acm.hdu.edu.cn/search.php?field=problem&key=2024%A1%B0%B6%A4%B0%D2%B1%E0%B3%CC%A1%B1%D6%D0%B9%FA%B4%F3%D1%A7%C9%FA%CB%E3%B7%A8%C9%E8%BC%C6%B3%AC%BC%B6%C1%AA%C8%FC%A3%A83%A3%A9&source=1&searchmode=source)
 + [Aug. 2023] [2023 HDU Multi-University Training Contest 5](https://acm.hdu.edu.cn/search.php?field=problem&key=2023%A1%B0%B6%A4%B0%D2%B1%E0%B3%CC%A1%B1%D6%D0%B9%FA%B4%F3%D1%A7%C9%FA%CB%E3%B7%A8%C9%E8%BC%C6%B3%AC%BC%B6%C1%AA%C8%FC%A3%A85%A3%A9&source=1&searchmode=source)
 
-Other contests:
+Other Contests:
 + [Sep. 2025] CityU-PolyU Collegiate Programming Contest 2025
 + [Sep. 2024] CityU Competitive Programming Contest 2024
 
 ### Awards
 
-International Collegiate Programming Contest (ICPC) series:
+International Collegiate Programming Contest (ICPC):
 
 + [Dec. 2024] [Silver in the 49th ICPC Asia-East Final](icpc-49-ecfinal.pdf)
 + [Nov. 2024] [Gold in the 49th ICPC Asia Hangzhou](icpc-49-hangzhou.pdf)
@@ -53,13 +53,13 @@ International Collegiate Programming Contest (ICPC) series:
 + [Nov. 2022] [Gold in the 47th ICPC Asia Hefei](icpc-47-hefei.pdf)
 + [Dec. 2020] [Gold in the 45th ICPC Asia Jinan](icpc-45-jinan.pdf)
 
-China Collegiate Programming Contest (CCPC) series:
+China Collegiate Programming Contest (CCPC):
 
 + [Nov. 2023] [Gold in the 9th CCPC Harbin](ccpc-9-harbin.jpg)
 + [Nov. 2022] [Gold in the 8th CCPC Guangzhou](ccpc-8-guangzhou.jpg)
 + [Nov. 2022] [Gold in the 8th CCPC Weihai](ccpc-8-weihai.jpg)
 
-Other contests:
+Other Contests:
 
 + [Oct. 2025] [Gold in the 2025 CCF CCSP Contest](ccsp-25.pdf)
 + [Apr. 2025] [Runner-up in the Greater Bay Area IPC 2025](GBAIPC-25.pdf)

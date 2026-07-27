@@ -9,7 +9,7 @@
 /* Competitive Programming uses a canvas 10% wider than Travel, with its
    introduction spanning the same full width as the two-column section. */
 .competitive-programming-page {
-  max-width: 70rem;
+  max-width: 70.4rem;
 }
 
 .competitive-programming-page .prose {
