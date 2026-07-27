@@ -6,9 +6,9 @@
   }
 }
 
-/* Match Competitive Programming to the full two-column Bio canvas. */
+/* Give Competitive Programming a slightly wider desktop reading measure. */
 .competitive-programming-page {
-  max-width: 42.6667rem;
+  max-width: 44.8rem;
 }
 
 .competitive-programming-page .prose {
