@@ -12,7 +12,7 @@ I am highly involved with Competitive Programming. I started doing competitive p
 
 In my competitive programming career, I won six gold medals in the International Collegiate Programming Contest (ICPC) regional contests and three gold medals in the China Collegiate Programming Contest (CCPC) series contests. 
 
-I am the founder of [eps.ac](https://eps.ac/), an algorithmic problem-setting group, and serve as a chief judge for multiple official contests. I am also a member of the [Universal Cup](https://ucup.ac/) Organizing Committee. You can also find me on [eps.ac](https://eps.ac/members/colin/), [Universal Cup](https://ucup.ac/about/members/#yixiong-gao), [QOJ](https://qoj.ac/user/profile/SGColin), [Codeforces](https://codeforces.com/profile/SGColin), and [LeetCode](https://leetcode.cn/u/yixionggao/).
+I am the founder of [eps.ac](https://eps.ac/), an algorithmic problem-setting group, and serve as a chief judge for multiple official contests. I am also a member of the [Universal Cup](https://ucup.ac/) Organizing Committee. You can find me on [eps.ac](https://eps.ac/members/colin/), [Universal Cup](https://ucup.ac/about/members/#yixiong-gao), [QOJ](https://qoj.ac/user/profile/SGColin), [Codeforces](https://codeforces.com/profile/SGColin), and [LeetCode](https://leetcode.cn/u/yixionggao/).
 
 ### Problem Setting and Judging
 
