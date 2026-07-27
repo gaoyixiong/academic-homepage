@@ -6,13 +6,50 @@
   }
 }
 
-/* Give Competitive Programming a slightly wider desktop reading measure. */
+/* Competitive Programming uses the same compact desktop canvas as Travel.
+   Its introduction keeps a comfortable reading measure, followed by two
+   balanced editorial columns on wide screens. */
 .competitive-programming-page {
-  max-width: 44.8rem;
+  max-width: 64rem;
 }
 
 .competitive-programming-page .prose {
   max-width: none;
+}
+
+.competitive-programming-page .competitive-programming-intro {
+  max-width: 44.8rem;
+}
+
+.competitive-programming-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2.5rem;
+  margin-top: 3rem;
+}
+
+.competitive-programming-column {
+  min-width: 0;
+}
+
+.competitive-programming-column > h3:first-child {
+  margin-top: 0;
+}
+
+@media (min-width: 1024px) {
+  .competitive-programming-columns {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 3rem;
+  }
+
+  .competitive-programming-column + .competitive-programming-column {
+    padding-left: 3rem;
+    border-left: 1px solid #e2e8f0;
+  }
+
+  .dark .competitive-programming-column + .competitive-programming-column {
+    border-left-color: #334155;
+  }
 }
 
 /* Keep the copyright visually connected to the page content. Put any spare

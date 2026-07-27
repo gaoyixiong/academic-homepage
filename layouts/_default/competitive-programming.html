@@ -7,9 +7,37 @@
         {{- .Title -}}
       </h1>
 
-      <div class="mx-auto mt-12 max-w-prose prose prose-slate lg:prose-xl dark:prose-invert">
-        {{ .Content }}
-      </div>
+      {{- $content := printf "%s" .Content -}}
+      {{- $problemMarker := `<h3 id="problem-setting-and-judging">` -}}
+      {{- $awardsMarker := `<h3 id="awards">` -}}
+      {{- $problemParts := split $content $problemMarker -}}
+
+      {{- if eq (len $problemParts) 2 -}}
+        {{- $columnParts := split (index $problemParts 1) $awardsMarker -}}
+        {{- if eq (len $columnParts) 2 -}}
+          <div class="competitive-programming-intro mt-12 prose prose-slate lg:prose-xl dark:prose-invert">
+            {{ index $problemParts 0 | safeHTML }}
+          </div>
+
+          <div class="competitive-programming-columns">
+            <section class="competitive-programming-column prose prose-slate lg:prose-xl dark:prose-invert" aria-labelledby="problem-setting-and-judging">
+              {{ $problemMarker | safeHTML }}{{ index $columnParts 0 | safeHTML }}
+            </section>
+
+            <section class="competitive-programming-column prose prose-slate lg:prose-xl dark:prose-invert" aria-labelledby="awards">
+              {{ $awardsMarker | safeHTML }}{{ index $columnParts 1 | safeHTML }}
+            </section>
+          </div>
+        {{- else -}}
+          <div class="competitive-programming-content mt-12 prose prose-slate lg:prose-xl dark:prose-invert">
+            {{ .Content }}
+          </div>
+        {{- end -}}
+      {{- else -}}
+        <div class="competitive-programming-content mt-12 prose prose-slate lg:prose-xl dark:prose-invert">
+          {{ .Content }}
+        </div>
+      {{- end -}}
     </main>
   </article>
 </div>
