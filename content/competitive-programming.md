@@ -18,7 +18,7 @@ show_date_updated: false
 
 International Collegiate Programming Contest (ICPC):
 
-+ [Dec. 2026] [The 2026 ICPC China Shenzhen Invitational](https://qoj.ac/contest/3588)
++ [Apr. 2026] [The 2026 ICPC China Shenzhen Invitational](https://qoj.ac/contest/3588)
 + [Sep. 2024] [The 49th ICPC Asia EC Regionals Online Contest (II)](https://codeforces.com/gym/105358)
 + [Sep. 2023] [The 48th ICPC Asia EC Regionals Online Contest (I)](https://codeforces.com/gym/104639)
 
