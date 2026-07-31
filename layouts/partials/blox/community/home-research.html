@@ -1,0 +1,73 @@
+{{/* Home research lists: published work and manuscripts. */}}
+{{ $block := .wcBlock }}
+{{ $works := slice }}
+{{ $publications := slice }}
+{{ $manuscripts := slice }}
+{{ $newsPage := site.GetPage "/news" }}
+{{ $newsContent := "" }}
+
+{{ with $newsPage }}
+  {{ $newsContent = trim .RawContent " \t\r\n" }}
+{{ end }}
+
+{{ with site.GetPage "/publications" }}
+  {{ $works = .Pages.ByDate.Reverse }}
+{{ end }}
+
+{{ range $works }}
+  {{ $status := lower (.Params.publication_status | default "published") }}
+  {{ if eq $status "manuscript" }}
+    {{ $manuscripts = $manuscripts | append . }}
+  {{ else }}
+    {{ $publications = $publications | append . }}
+  {{ end }}
+{{ end }}
+
+<div class="home-research site-content-shell">
+  {{ if $newsContent }}
+    <section class="home-research-section home-news-section" aria-labelledby="home-news-title">
+      <h2 id="home-news-title" class="site-page-title text-left font-bold tracking-tight text-slate-900 dark:text-slate-100">
+        {{ $newsPage.Title | default "News" }}
+      </h2>
+      <div class="home-news-content">
+        {{ $newsPage.Content }}
+      </div>
+    </section>
+  {{ end }}
+
+  <section class="home-research-section" aria-labelledby="home-publications-title">
+    <h2 id="home-publications-title" class="site-page-title text-left font-bold tracking-tight text-slate-900 dark:text-slate-100">
+      {{ $block.content.publications_title | default "Publications" }}
+    </h2>
+
+    {{ if gt (len $publications) 0 }}
+      <div class="home-research-list">
+        <div class="research-entry-stack">
+        {{ range $index, $item := $publications }}
+          {{ partial "home/research-entry.html" $item }}
+        {{ end }}
+        </div>
+      </div>
+    {{ else }}
+      <p class="home-research-empty">No publications listed yet.</p>
+    {{ end }}
+  </section>
+
+  <section class="home-research-section" aria-labelledby="home-manuscripts-title">
+    <h2 id="home-manuscripts-title" class="site-page-title text-left font-bold tracking-tight text-slate-900 dark:text-slate-100">
+      {{ $block.content.manuscripts_title | default "Manuscripts" }}
+    </h2>
+
+    {{ if gt (len $manuscripts) 0 }}
+      <div class="home-research-list">
+        <div class="research-entry-stack">
+        {{ range $index, $item := $manuscripts }}
+          {{ partial "home/research-entry.html" $item }}
+        {{ end }}
+        </div>
+      </div>
+    {{ else }}
+      <p class="home-research-empty">No manuscripts listed yet.</p>
+    {{ end }}
+  </section>
+</div>

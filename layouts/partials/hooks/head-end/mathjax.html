@@ -1,17 +1,24 @@
-{{- if and .IsPage (eq .Section "publications") -}}
-  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+{{ $needsMathJax := or .IsHome (eq .Section "publications") (.Param "math") }}
+{{ if and site.Params.features.mathjax.enable $needsMathJax }}
   <script>
     window.MathJax = {
-      startup: {
-        elements: ['article .prose']
-      },
       tex: {
         inlineMath: [['$', '$'], ['\\(', '\\)']],
         displayMath: [['$$', '$$'], ['\\[', '\\]']],
         processEscapes: true,
         processEnvironments: true
+      },
+      options: {
+        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
       }
     };
   </script>
-  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
-{{- end -}}
+  <script
+    id="MathJax-script"
+    defer
+    src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js"
+    integrity="sha384-Wuix6BuhrWbjDBs24bXrjf4ZQ5aFeFWBuKkFekO2t8xFU0iNaLQfp2K6/1Nxveei"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer">
+  </script>
+{{ end }}

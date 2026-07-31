@@ -24,6 +24,7 @@
     let activePlaceID = null;
     let map = null;
     let mapLoaded = false;
+    let mapFallbackTimer = null;
     let currentFilter = 'all';
 
     const removePlaceHash = () => {
@@ -117,9 +118,29 @@
     });
 
     const mapElement = document.getElementById('travel-map');
+    const markMapReady = () => {
+      if (!mapElement) return;
+      window.clearTimeout(mapFallbackTimer);
+      mapFallbackTimer = null;
+      mapElement.querySelector('[data-travel-map-loading]')?.remove();
+      mapElement.setAttribute('aria-busy', 'false');
+    };
+
     const showMapFallback = () => {
       if (!mapElement || mapLoaded) return;
+      window.clearTimeout(mapFallbackTimer);
+      mapFallbackTimer = null;
+      if (map) {
+        try {
+          map.remove();
+        } catch (_) {
+          // The fallback should remain usable even if map teardown is incomplete.
+        }
+        map = null;
+      }
       mapElement.classList.add('travel-map-unavailable');
+      mapElement.setAttribute('aria-busy', 'false');
+      mapElement.setAttribute('aria-label', 'Travel map unavailable');
       mapElement.innerHTML = '<div><strong>The interactive map is unavailable.</strong><span>All destinations remain available in the regional archive below.</span></div>';
     };
 
@@ -162,6 +183,7 @@
 
         map.on('load', () => {
           mapLoaded = true;
+          markMapReady();
           hideAdministrativeLayers();
 
           map.addSource('travel-places', {
@@ -193,6 +215,7 @@
             filter: ['has', 'point_count'],
             layout: {
               'text-field': ['get', 'point_count_abbreviated'],
+              'text-font': ['Noto Sans Regular'],
               'text-size': 12,
             },
             paint: { 'text-color': '#ffffff' },
@@ -248,7 +271,7 @@
           map.on('mouseleave', 'travel-clusters', () => { map.getCanvas().style.cursor = ''; });
         });
 
-        window.setTimeout(showMapFallback, 12000);
+        mapFallbackTimer = window.setTimeout(showMapFallback, 12000);
       } catch (error) {
         console.error('Could not initialise the travel map.', error);
         showMapFallback();

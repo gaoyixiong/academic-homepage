@@ -1,6 +1,7 @@
 ---
 title: 'Home'
 date: 2024-07-21
+lastmod: 2026-07-31
 type: landing
 
 design:
@@ -10,7 +11,12 @@ design:
 sections:
   - block: resume-biography-2
     content:
-      title: 高义雄
+      title: 高义雄 · Yixiong Gao (Colin)
       # Note: `username` refers to the user's folder name in `content/authors/`
       username: admin
+  - block: home-research
+    id: research
+    content:
+      publications_title: Publications
+      manuscripts_title: Manuscripts
 ---

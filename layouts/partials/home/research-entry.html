@@ -1,0 +1,60 @@
+{{/* A homepage-only research entry. The entry itself never links to a detail page. */}}
+{{ $item := . }}
+{{ $summary := $item.Params.summary | default $item.Params.description | default "" }}
+
+<article class="research-entry">
+  <div class="research-entry-card">
+    <time
+      class="research-entry-date research-entry-date-mobile"
+      datetime="{{ time.Format "2006-01-02" $item.Date }}">
+      {{ time.Format (site.Params.locale.date_format | default ":date_long") $item.Date }}
+    </time>
+
+    <h3 class="research-entry-title">
+      {{ with $item.Params.title_url }}
+        <a class="research-entry-title-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">
+          {{ $item.Title }}
+        </a>
+      {{ else }}
+        <span>{{ $item.Title }}</span>
+      {{ end }}
+    </h3>
+
+    {{ with $summary }}
+      <div class="research-entry-summary">
+        {{ range split (string .) "\n" }}
+          {{ $line := trim . " \t\r\n" }}
+          {{ with $line }}<p>{{ $item.RenderString . }}</p>{{ end }}
+        {{ end }}
+      </div>
+    {{ end }}
+
+    {{ with $item.Params.links }}
+      <nav class="research-entry-links" aria-label="{{ $item.Title }} resources">
+        {{ range $link := . }}
+          {{ $href := $link.url | default "" }}
+          {{ with $link.resource }}
+            {{ with $item.Resources.GetMatch . }}
+              {{ $href = .RelPermalink }}
+            {{ end }}
+          {{ end }}
+          {{ with $href }}
+            <a
+              class="research-entry-link"
+              href="{{ . }}"
+              target="_blank"
+              rel="noopener noreferrer">
+              {{ $link.label }}
+            </a>
+          {{ end }}
+        {{ end }}
+      </nav>
+    {{ end }}
+  </div>
+
+  <time
+    class="research-entry-date research-entry-date-desktop"
+    datetime="{{ time.Format "2006-01-02" $item.Date }}">
+    {{ time.Format (site.Params.locale.date_format | default ":date_long") $item.Date }}
+  </time>
+</article>

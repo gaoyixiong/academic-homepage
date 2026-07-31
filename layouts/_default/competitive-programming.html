@@ -1,31 +1,30 @@
 {{ define "main" }}
 
-<div class="competitive-programming-page mx-auto w-full px-4 pb-8 sm:px-6">
-  <article class="w-full break-words">
-    <main class="w-full min-w-0">
+<main class="competitive-programming-page site-content-shell">
+  <article class="w-full min-w-0 break-words">
       <h1 class="site-page-title text-center font-bold tracking-tight text-slate-900 dark:text-slate-100">
         {{- .Title -}}
       </h1>
 
       {{- $content := printf "%s" .Content -}}
-      {{- $problemMarker := `<h3 id="problem-setting-and-judging">` -}}
-      {{- $awardsMarker := `<h3 id="awards">` -}}
-      {{- $problemParts := split $content $problemMarker -}}
+      {{- $problemMarker := `<h2 id="problem-setting-and-judging">` -}}
+      {{- $awardsMarker := `<h2 id="awards">` -}}
+      {{- $awardsParts := split $content $awardsMarker -}}
 
-      {{- if eq (len $problemParts) 2 -}}
-        {{- $columnParts := split (index $problemParts 1) $awardsMarker -}}
+      {{- if eq (len $awardsParts) 2 -}}
+        {{- $columnParts := split (index $awardsParts 1) $problemMarker -}}
         {{- if eq (len $columnParts) 2 -}}
           <div class="competitive-programming-intro mt-12 prose prose-slate lg:prose-xl dark:prose-invert">
-            {{ index $problemParts 0 | safeHTML }}
+            {{ index $awardsParts 0 | safeHTML }}
           </div>
 
           <div class="competitive-programming-columns">
-            <section class="competitive-programming-column prose prose-slate lg:prose-xl dark:prose-invert" aria-labelledby="problem-setting-and-judging">
-              {{ $problemMarker | safeHTML }}{{ index $columnParts 0 | safeHTML }}
+            <section class="competitive-programming-column prose prose-slate lg:prose-xl dark:prose-invert" aria-labelledby="awards">
+              {{ $awardsMarker | safeHTML }}{{ index $columnParts 0 | safeHTML }}
             </section>
 
-            <section class="competitive-programming-column prose prose-slate lg:prose-xl dark:prose-invert" aria-labelledby="awards">
-              {{ $awardsMarker | safeHTML }}{{ index $columnParts 1 | safeHTML }}
+            <section class="competitive-programming-column prose prose-slate lg:prose-xl dark:prose-invert" aria-labelledby="problem-setting-and-judging">
+              {{ $problemMarker | safeHTML }}{{ index $columnParts 1 | safeHTML }}
             </section>
           </div>
         {{- else -}}
@@ -38,8 +37,7 @@
           {{ .Content }}
         </div>
       {{- end -}}
-    </main>
   </article>
-</div>
+</main>
 
 {{ end }}

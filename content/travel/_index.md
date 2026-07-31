@@ -1,6 +1,7 @@
 ---
 title: Travel
 type: travel
+lastmod: 2026-07-31
 outputs:
   - HTML
 summary: My personal travel journal, with photographs, memories, and future journeys.

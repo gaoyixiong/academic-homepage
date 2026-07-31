@@ -1,0 +1,42 @@
+{{/* Homepage biography, aligned to the same content shell as the other main pages. */}}
+{{ $page := .wcPage }}
+{{ $block := .wcBlock }}
+{{ $author := $block.content.username | default "admin" }}
+{{ $personPagePath := printf "/authors/%s" $author }}
+{{ $personPage := site.GetPage $personPagePath }}
+
+{{ if not $personPage }}
+  {{ errorf "Could not find an author page at `%s`." $personPagePath }}
+{{ end }}
+
+{{ $avatar := ($personPage.Resources.ByType "image").GetMatch "*avatar*" }}
+
+<main class="home-biography site-content-shell">
+  <div class="home-biography-grid">
+    <div class="home-biography-copy">
+      <h1 class="home-biography-title font-bold tracking-tight text-zinc-800 dark:text-zinc-100">
+        {{ with ($block.content.title | emojify | $page.RenderString) | default $personPage.Title }}{{ . }}{{ end }}
+      </h1>
+      <div class="home-biography-text prose prose-slate dark:prose-invert">
+        {{ with ($block.content.text | emojify | $page.RenderString) | default $personPage.Content }}{{ . }}{{ end }}
+      </div>
+    </div>
+
+    <div class="home-biography-media">
+      {{ if $avatar }}
+        {{ $avatarImage := $avatar.Process "Fill 800x800 Center webp" }}
+        <img
+          class="home-biography-avatar"
+          src="{{ $avatarImage.RelPermalink }}"
+          width="800"
+          height="800"
+          alt="Portrait of {{ $personPage.Title }}"
+          decoding="async"
+          fetchpriority="high">
+      {{ end }}
+      <nav class="home-biography-social" aria-label="{{ $personPage.Title }} profiles">
+        {{ partial "social_links" $personPage }}
+      </nav>
+    </div>
+  </div>
+</main>

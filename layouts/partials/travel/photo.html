@@ -5,6 +5,7 @@
 {{ $photoWhen := $photo.when | default (dict) }}
 {{ $tripWhen := $trip.when | default (dict) }}
 {{ $timeLabel := $photoWhen.display | default $tripWhen.display }}
+{{ $timeStart := $photoWhen.start | default $tripWhen.start }}
 {{ $spot := $photo.spot | default (dict) }}
 {{ $thumbnailFocus := lower ($photo.thumbnail_focus | default "center") }}
 {{ if not (in (slice "top" "center" "bottom") $thumbnailFocus) }}
@@ -31,7 +32,7 @@
     {{ if or $timeLabel $spot.name $spot.area }}
       {{ $hasPrevious := false }}
       <p class="travel-photo-meta">
-        {{ with $timeLabel }}<time>{{ . }}</time>{{ $hasPrevious = true }}{{ end }}
+        {{ if $timeLabel }}<time{{ with $timeStart }} datetime="{{ . }}"{{ end }}>{{ $timeLabel }}</time>{{ $hasPrevious = true }}{{ end }}
         {{ with $spot.name }}{{ if $hasPrevious }}<i aria-hidden="true">·</i>{{ end }}<span>{{ . }}</span>{{ $hasPrevious = true }}{{ end }}
         {{ with $spot.area }}{{ if $hasPrevious }}<i aria-hidden="true">·</i>{{ end }}<span>{{ . }}</span>{{ $hasPrevious = true }}{{ end }}
       </p>

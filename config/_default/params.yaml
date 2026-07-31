@@ -14,8 +14,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'I am a Ph.D student in the Department of Computer Science at City University of Hong Kong, and I am fortunate to be advised by Prof. Minming Li.'
-    twitter: 'GetResearchDev'
+    description: 'I am a Ph.D. student in the Department of Computer Science at City University of Hong Kong, and I am fortunate to be advised by Prof. Minming Li.'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -52,7 +52,8 @@ locale:
 # Site features
 features:
   math:
-    # Publication pages use MathJax via the custom head hook.
     enable: false
+  mathjax:
+    enable: true
   privacy_pack:
     enable: false

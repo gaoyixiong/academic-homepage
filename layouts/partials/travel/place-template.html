@@ -53,7 +53,7 @@
             <header class="travel-trip-header">
               <div>
                 {{ if eq .status "planned" }}<span class="travel-status travel-status-planned">Planned</span>{{ end }}
-                {{ with $timeLabel }}<time>{{ . }}</time>{{ end }}
+                {{ if $timeLabel }}<time{{ with $when.start }} datetime="{{ . }}"{{ end }}>{{ $timeLabel }}</time>{{ end }}
               </div>
               {{ with .note }}<p>{{ . }}</p>{{ end }}
             </header>

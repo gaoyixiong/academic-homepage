@@ -76,8 +76,15 @@
       </div>
     </div>
     <div class="travel-map-card">
-      <div id="travel-map" class="travel-map" role="application" aria-label="Interactive map of travel destinations">
-        <div class="travel-map-loading">Loading the map…</div>
+      <div
+        id="travel-map"
+        class="travel-map"
+        role="region"
+        aria-label="Interactive map of travel destinations"
+        aria-busy="true">
+        <div class="travel-map-loading" role="status" aria-live="polite" data-travel-map-loading>
+          Loading the map…
+        </div>
       </div>
       <div class="travel-map-legend" aria-label="Map legend">
         <span><i class="travel-legend-dot travel-legend-visited"></i>Visited</span>
@@ -117,8 +124,9 @@
               </span>
               <span class="travel-plan-events">
                 {{ range $plannedTrips }}
+                  {{ $plannedWhen := .when | default (dict) }}
                   <span class="travel-plan-event">
-                    {{ with .when.display }}<time class="travel-plan-time">{{ . }}</time>{{ end }}
+                    {{ if $plannedWhen.display }}<time class="travel-plan-time"{{ with $plannedWhen.start }} datetime="{{ . }}"{{ end }}>{{ $plannedWhen.display }}</time>{{ end }}
                     {{ with .note }}<span class="travel-plan-note">{{ . }}</span>{{ end }}
                   </span>
                 {{ end }}

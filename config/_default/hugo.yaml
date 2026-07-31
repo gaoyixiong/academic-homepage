@@ -11,18 +11,6 @@ baseURL: 'https://yixionggao.com/' # Website URL
 ############################
 
 cascade:
-  # Blog post options
-  - _target:
-      path: /publications/**
-      kind: page
-    pager: false
-    editable: false
-    reading_time: false
-    commentable: false
-    show_related: false
-    share: false
-    show_breadcrumb: false
-    profile: false
   # Tag page options
   - _target:
       path: /tags/**
@@ -62,8 +50,6 @@ imaging:
   anchor: smart
 timeout: 600000
 taxonomies:
-  tag: tags
-  category: categories
   author: authors
 markup:
   _merge: deep
