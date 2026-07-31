@@ -1,9 +1,18 @@
-/* Shared page canvas. Travel uses the same values in travel.css, so all three
-   primary pages align at every viewport rather than only on very wide screens. */
+/* Use a slightly more compact desktop type scale. Keeping this above the
+   mobile breakpoint preserves the existing phone typography. */
+@media (min-width: 701px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+/* Shared page canvas. At the compact desktop type scale, 61.5rem is about
+   922px: 10% narrower than the previous 1024px canvas. Travel uses the same
+   value in travel.css so all three primary pages remain aligned. */
 .site-content-shell {
   box-sizing: border-box;
   width: 100%;
-  max-width: 64rem;
+  max-width: 61.5rem;
   margin-right: auto;
   margin-left: auto;
   padding-right: 1.5rem;
@@ -106,11 +115,11 @@
   }
 
   .competitive-programming-column:first-child {
-    padding-right: 1.25rem;
+    padding-right: 1rem;
   }
 
   .competitive-programming-column + .competitive-programming-column {
-    padding-left: 1.25rem;
+    padding-left: 1rem;
     border-left: 1px solid #e2e8f0;
   }
 
