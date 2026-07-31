@@ -17,7 +17,7 @@ I later joined the competitive programming team at City University of Hong Kong,
 
 During my time as a contestant, I won five gold medals at International Collegiate Programming Contest (ICPC) regional contests and three gold medals at China Collegiate Programming Contest (CCPC) events.
 
-After concluding my career as a contestant, I shifted my focus to problem setting, contest organization, and giving back to the competitive programming community. I founded [eps.ac](https://eps.ac/), an algorithmic problem-setting group, and serve as a chief judge for several official contests. I am also a member of the [Universal Cup](https://ucup.ac/) Organizing Committee. More information about my work and other competitive programming activities is available on [eps.ac](https://eps.ac/members/colin/), [Universal Cup](https://ucup.ac/about/members/#yixiong-gao), [QOJ](https://qoj.ac/user/profile/SGColin), [Codeforces](https://codeforces.com/profile/SGColin), and [LeetCode](https://leetcode.cn/u/yixionggao/).
+After concluding my career as a contestant, I shifted my focus to problem setting, contest organization, and giving back to the competitive programming community. I founded [eps.ac](https://eps.ac/), an algorithmic problem-setting group, and serve as a chief judge for several official contests. I am also a member of the [Universal Cup](https://ucup.ac/) Organizing Committee. More information about my work and other competitive programming activities is available on [eps.ac](https://eps.ac/members/colin/), [Universal Cup](https://ucup.ac/about/members/#yixiong-gao), [QOJ](https://qoj.ac/user/profile/SGColin), and [Codeforces](https://codeforces.com/profile/Yixiong).
 
 ## Awards
 
