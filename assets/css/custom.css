@@ -68,8 +68,8 @@
 
 @media (min-width: 1024px) {
   .home-biography-grid {
-    grid-template-columns: minmax(0, 1.45fr) minmax(18rem, 0.85fr);
-    gap: 2rem;
+    grid-template-columns: minmax(0, 1fr) 23.25rem;
+    gap: 2.25rem;
     align-items: start;
   }
 

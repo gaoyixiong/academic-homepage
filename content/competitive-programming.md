@@ -60,7 +60,7 @@ International Collegiate Programming Contest (ICPC):
 
 China Collegiate Programming Contest (CCPC):
 
-+ [Oct. 2025] [The 10th CCPC Women's](https://qoj.ac/contest/2564) & [Vocational Division](https://qoj.ac/contest/2565)
++ [Oct. 2025] [The 10th CCPC Women's](https://qoj.ac/contest/2564) & [Vocational](https://qoj.ac/contest/2565)
 + [May 2025] [The 8th Guangxi CPC](https://ac.nowcoder.com/acm/contest/110811)
 + [May 2024] The 7th Guangxi CPC
 + [Jun. 2023] [The 6th Guangxi CPC](https://ac.nowcoder.com/acm/contest/59040)
@@ -68,10 +68,10 @@ China Collegiate Programming Contest (CCPC):
 
 Training Camps:
 
-+ [Aug. 2026] [The 8th OCPC Colin and His Friends' Contest II](https://ocpc.camp/2026s/)
++ [Aug. 2026] [The 8th OCPC Colin & His Friends' Contest II](https://ocpc.camp/2026s/)
 + [Jan. 2026] [The 7th OCPC Colin and His Friends' Contest](https://ocpc.camp/2026w/)
-+ [Jul. 2024] [2024 HDU Multi-University Training Contest 3](https://acm.hdu.edu.cn/search.php?field=problem&key=2024%A1%B0%B6%A4%B0%D2%B1%E0%B3%CC%A1%B1%D6%D0%B9%FA%B4%F3%D1%A7%C9%FA%CB%E3%B7%A8%C9%E8%BC%C6%B3%AC%BC%B6%C1%AA%C8%FC%A3%A83%A3%A9&source=1&searchmode=source)
-+ [Aug. 2023] [2023 HDU Multi-University Training Contest 5](https://acm.hdu.edu.cn/search.php?field=problem&key=2023%A1%B0%B6%A4%B0%D2%B1%E0%B3%CC%A1%B1%D6%D0%B9%FA%B4%F3%D1%A7%C9%FA%CB%E3%B7%A8%C9%E8%BC%C6%B3%AC%BC%B6%C1%AA%C8%FC%A3%A85%A3%A9&source=1&searchmode=source)
++ [Jul. 2024] [2024 HDU Multi-University Training Round 3](https://acm.hdu.edu.cn/search.php?field=problem&key=2024%A1%B0%B6%A4%B0%D2%B1%E0%B3%CC%A1%B1%D6%D0%B9%FA%B4%F3%D1%A7%C9%FA%CB%E3%B7%A8%C9%E8%BC%C6%B3%AC%BC%B6%C1%AA%C8%FC%A3%A83%A3%A9&source=1&searchmode=source)
++ [Aug. 2023] [2023 HDU Multi-University Training Round 5](https://acm.hdu.edu.cn/search.php?field=problem&key=2023%A1%B0%B6%A4%B0%D2%B1%E0%B3%CC%A1%B1%D6%D0%B9%FA%B4%F3%D1%A7%C9%FA%CB%E3%B7%A8%C9%E8%BC%C6%B3%AC%BC%B6%C1%AA%C8%FC%A3%A85%A3%A9&source=1&searchmode=source)
 
 Other Contests:
 
