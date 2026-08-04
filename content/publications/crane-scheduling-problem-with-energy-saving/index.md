@@ -1,7 +1,7 @@
 ---
 title: Crane Scheduling Problem with Energy Saving
 summary: |
-  **Yixiong Gao**, [Florian Jaehn](https://www.hsu-hh.de/or/jaehn-en), [Minming Li](https://www.cs.cityu.edu.hk/~minmli/), Wenhao Ma, and Xinbo Zhang
+  **Yixiong Gao**, [Florian Jaehn](https://www.hsu-hh.de/or/jaehn-en), [Minming Li](https://www.cs.cityu.edu.hk/~minmli/), Wenhao Ma, and Xinbo Zhang.
 date: 2025-10-13
 publication_status: manuscript
 links:
