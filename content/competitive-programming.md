@@ -55,15 +55,15 @@ Other Contests:
 International Collegiate Programming Contest (ICPC):
 
 + [Apr. 2026] [The 2026 ICPC China Shenzhen Invitational](https://qoj.ac/contest/3588)
-+ [Sep. 2024] [The 49th ICPC Asia EC Online Contest (II)](https://codeforces.com/gym/105358)
-+ [Sep. 2023] [The 48th ICPC Asia EC Online Contest (I)](https://codeforces.com/gym/104639)
++ [Sep. 2024] [The 49th ICPC Asia EC Online Contest (II)](https://qoj.ac/contest/1799)
++ [Sep. 2023] [The 48th ICPC Asia EC Online Contest (I)](https://qoj.ac/contest/1485)
 
 China Collegiate Programming Contest (CCPC):
 
 + [Oct. 2025] [The 10th CCPC Women's](https://qoj.ac/contest/2564) & [Vocational](https://qoj.ac/contest/2565)
-+ [May 2025] [The 8th Guangxi CPC](https://ac.nowcoder.com/acm/contest/110811)
-+ [May 2024] The 7th Guangxi CPC
-+ [Jun. 2023] [The 6th Guangxi CPC](https://ac.nowcoder.com/acm/contest/59040)
++ [May 2025] [The 8th Guangxi CPC](https://qoj.ac/contest/4120)
++ [May 2024] [The 7th Guangxi CPC](https://qoj.ac/contest/4118)
++ [Jun. 2023] [The 6th Guangxi CPC](https://qoj.ac/contest/4119)
 + [Jun. 2022] The 5th Guangxi CPC
 
 Training Camps:
@@ -75,6 +75,6 @@ Training Camps:
 
 Other Contests:
 
-+ [Aug. 2026] Hong Kong Joint CPC 2026
++ [Aug. 2026] [Hong Kong Joint CPC 2026](https://qoj.ac/contest/4072)
 + [Sep. 2025] CityU-PolyU CPC 2025
 + [Sep. 2024] CityU CPC 2024
