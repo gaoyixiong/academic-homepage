@@ -59,8 +59,8 @@ International Collegiate Programming Contest (ICPC):
 + [Sep. 2023] [The 48th ICPC Asia EC Online Contest (I)](https://qoj.ac/contest/1485)
 
 China Collegiate Programming Contest (CCPC):
-
-+ [Oct. 2025] [The 10th CCPC Women's](https://qoj.ac/contest/2564) & [Vocational](https://qoj.ac/contest/2565)
++ [Sep. 2026] [The 12th CCPC Online Contest](https://qoj.ac/contest/4128)
++ [Oct. 2025] [The 11th CCPC Women's](https://qoj.ac/contest/2564) & [Vocational](https://qoj.ac/contest/2565)
 + [May 2025] [The 8th Guangxi CPC](https://qoj.ac/contest/4120)
 + [May 2024] [The 7th Guangxi CPC](https://qoj.ac/contest/4118)
 + [Jun. 2023] [The 6th Guangxi CPC](https://qoj.ac/contest/4119)
