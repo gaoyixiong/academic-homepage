@@ -1,7 +1,7 @@
 ---
 title: Competitive Programming
 date: 2024-09-21
-lastmod: 2026-07-31
+lastmod: 2026-11-05
 layout: competitive-programming
 pager: false
 hide_date: true
@@ -23,32 +23,32 @@ After concluding my career as a contestant, I shifted my focus to problem settin
 
 International Collegiate Programming Contest (ICPC):
 
-+ [Dec. 2024] [Silver in the 49th ICPC Asia-East Final](icpc-49-ecfinal.pdf)
-+ [Nov. 2024] [Gold in the 49th ICPC Asia Hangzhou](icpc-49-hangzhou.pdf)
-+ [Jan. 2024] [Silver in the 48th ICPC Asia-East Final](icpc-48-ecfinal.pdf)
-+ [Dec. 2023] [Gold in the 48th ICPC Asia Hangzhou](icpc-48-hangzhou.pdf)
-+ [Mar. 2023] [Silver in the 47th ICPC Asia-East Final](icpc-47-ecfinal.pdf)
-+ [Dec. 2022] [Gold in the 47th ICPC Asia Nanjing](icpc-47-nanjing.pdf)
-+ [Nov. 2022] [Gold in the 47th ICPC Asia Hefei](icpc-47-hefei.pdf)
-+ [Dec. 2020] [Gold in the 45th ICPC Asia Jinan](icpc-45-jinan.pdf)
++ [Dec. 2024] [Silver in the 49th ICPC Asia-East Final](/competitive-programming/icpc-49-ecfinal.pdf)
++ [Nov. 2024] [Gold in the 49th ICPC Asia Hangzhou](/competitive-programming/icpc-49-hangzhou.pdf)
++ [Jan. 2024] [Silver in the 48th ICPC Asia-East Final](/competitive-programming/icpc-48-ecfinal.pdf)
++ [Dec. 2023] [Gold in the 48th ICPC Asia Hangzhou](/competitive-programming/icpc-48-hangzhou.pdf)
++ [Mar. 2023] [Silver in the 47th ICPC Asia-East Final](/competitive-programming/icpc-47-ecfinal.pdf)
++ [Dec. 2022] [Gold in the 47th ICPC Asia Nanjing](/competitive-programming/icpc-47-nanjing.pdf)
++ [Nov. 2022] [Gold in the 47th ICPC Asia Hefei](/competitive-programming/icpc-47-hefei.pdf)
++ [Dec. 2020] [Gold in the 45th ICPC Asia Jinan](/competitive-programming/icpc-45-jinan.pdf)
 
 China Collegiate Programming Contest (CCPC):
 
-+ [Nov. 2023] [Gold in the 9th CCPC Harbin](ccpc-9-harbin.jpg)
-+ [Nov. 2022] [Gold in the 8th CCPC Guangzhou](ccpc-8-guangzhou.jpg)
-+ [Nov. 2022] [Gold in the 8th CCPC Weihai](ccpc-8-weihai.jpg)
++ [Nov. 2023] [Gold in the 9th CCPC Harbin](/competitive-programming/ccpc-9-harbin.jpg)
++ [Nov. 2022] [Gold in the 8th CCPC Guangzhou](/competitive-programming/ccpc-8-guangzhou.jpg)
++ [Nov. 2022] [Gold in the 8th CCPC Weihai](/competitive-programming/ccpc-8-weihai.jpg)
 
 Other Contests:
 
-+ [Oct. 2025] [Gold in the 2025 CCF CCSP Contest](ccsp-25.pdf)
-+ [Apr. 2025] [Runner-up in the GBAIPC 2025](GBAIPC-25.pdf)
-+ [Oct. 2024] [HK Championship in IEEEXtreme 18.0](IEEEXTREME18.0.pdf)
-+ [Oct. 2024] [Gold in the 2024 CCF CCSP Contest](ccsp-24.pdf)
-+ [Jun. 2024] [2nd Place in the ACM-HK PC 2024](acmhk-2024.pdf)
-+ [Oct. 2023] [HK Championship in IEEEXtreme 17.0](IEEEXTREME17.0.pdf)
-+ [Apr. 2023] [Gold in the 20th Zhejiang Provincial CPC](ZJCPC-20.pdf)
-+ [Apr. 2022] [Gold in the 19th Zhejiang Provincial CPC](ZJCPC-19.jpeg)
-+ [Apr. 2021] [Gold in the 18th Zhejiang Provincial CPC](ZJCPC-18.jpg)
++ [Oct. 2025] [Gold in the 2025 CCF CCSP Contest](/competitive-programming/ccsp-25.pdf)
++ [Apr. 2025] [Runner-up in the GBAIPC 2025](/competitive-programming/GBAIPC-25.pdf)
++ [Oct. 2024] [HK Championship in IEEEXtreme 18.0](/competitive-programming/IEEEXTREME18.0.pdf)
++ [Oct. 2024] [Gold in the 2024 CCF CCSP Contest](/competitive-programming/ccsp-24.pdf)
++ [Jun. 2024] [2nd Place in the ACM-HK PC 2024](/competitive-programming/acmhk-2024.pdf)
++ [Oct. 2023] [HK Championship in IEEEXtreme 17.0](/competitive-programming/IEEEXTREME17.0.pdf)
++ [Apr. 2023] [Gold in the 20th Zhejiang Provincial CPC](/competitive-programming/ZJCPC-20.pdf)
++ [Apr. 2022] [Gold in the 19th Zhejiang Provincial CPC](/competitive-programming/ZJCPC-19.jpeg)
++ [Apr. 2021] [Gold in the 18th Zhejiang Provincial CPC](/competitive-programming/ZJCPC-18.jpg)
 
 ## Problem Setting and Judging
 

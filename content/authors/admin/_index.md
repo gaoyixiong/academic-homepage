@@ -33,8 +33,6 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: hero/envelope
-    url: 'mailto:yixiong.gao@my.cityu.edu.hk'
   - icon: brands/cv
     url: cv_yixionggao.pdf
   - icon: brands/google-scholar
@@ -57,8 +55,8 @@ education:
 
 ---
 
-I am a third-year Ph.D. student in the [Department of Computer Science](https://www.cs.cityu.edu.hk/) at [City University of Hong Kong](https://www.cityu.edu.hk/), and I am fortunate to be advised by [Prof. Minming Li](https://www.cs.cityu.edu.hk/~minmli/). Prior to this, I received my B.Eng. with [Honors](https://zhuoyue.hdu.edu.cn/main.htm) in Computer Science and Technology from [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm) under the supervision of [Prof. An Zhang](https://sci.hdu.edu.cn/sci_en/2020/0707/c6077a110489/page.htm).
+I am currently a third-year Ph.D. student in the [Department of Computer Science](https://www.cs.cityu.edu.hk/) at [City University of Hong Kong](https://www.cityu.edu.hk/), supervised by [Prof. Minming Li](https://www.cs.cityu.edu.hk/~minmli/). Prior to this, I received my B.Eng. in Computer Science and Technology from [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm).
 
-I have a broad interest in theoretical computer science. Currently, I am focusing on combinatorial optimization problems, especially scheduling problems.
+My research interests lie broadly in theoretical computer science, with a current focus on scheduling problems and comparison-oracle methods in combinatorial optimization and algorithmic game theory.
 
-I have been deeply involved in [Competitive Programming](/competitive-programming/) for over a decade, earning multiple gold medals as a contestant (2014–2024). I am the founder of [eps.ac](https://eps.ac/), an algorithmic problem-setting group, and serve as a chief judge for multiple official contests. I am also a member of the [Universal Cup](https://ucup.ac/) Organizing Committee.
+I am also actively involved in [competitive programming](/competitive-programming/), particularly in problem setting and contest organization.

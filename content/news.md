@@ -5,6 +5,6 @@ title: News
 # Leave the body empty to hide the entire News section on the homepage.
 _build:
   render: never
-  list: always
+  list: never
   publishResources: false
 ---

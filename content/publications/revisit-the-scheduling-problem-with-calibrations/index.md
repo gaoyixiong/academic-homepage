@@ -1,7 +1,7 @@
 ---
 title: Revisit the Scheduling Problem with Calibrations
 summary: |
-  Lin Chen, **Yixiong Gao**, [Minming Li](https://www.cs.cityu.edu.hk/~minmli/), [Guohui Lin](https://webdocs.cs.ualberta.ca/~ghlin/), and Kai Wang.
+  Lin Chen, **Yixiong Gao**, [Minming Li](https://www.cs.cityu.edu.hk/~minmli/), [Guohui Lin](https://webdocs.cs.ualberta.ca/~guohui/), and Kai Wang.
   In the 35th International Symposium on Algorithms and Computation (ISAAC 2024)
 date: 2024-12-04
 publication_status: published

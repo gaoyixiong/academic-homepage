@@ -1,7 +1,7 @@
 ---
 title: 'Home'
 date: 2024-07-21
-lastmod: 2026-07-31
+lastmod: 2026-11-05
 type: landing
 
 design:

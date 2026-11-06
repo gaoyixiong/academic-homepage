@@ -6,9 +6,7 @@
   }
 }
 
-/* Shared page canvas. At the compact desktop type scale, 61.5rem is about
-   922px: 10% narrower than the previous 1024px canvas. Travel uses the same
-   value in travel.css so all three primary pages remain aligned. */
+/* Shared page width for the homepage and Competitive Programming. */
 .site-content-shell {
   box-sizing: border-box;
   width: 100%;
@@ -32,6 +30,12 @@
 .home-biography-copy,
 .home-biography-media {
   min-width: 0;
+}
+
+.home-biography-media {
+  width: 100%;
+  max-width: 20rem;
+  justify-self: center;
 }
 
 .home-biography-title {
@@ -66,6 +70,15 @@
   font-size: 2rem;
 }
 
+.home-biography-social > div {
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.home-biography-social a {
+  padding-right: 0;
+}
+
 @media (min-width: 1024px) {
   .home-biography-grid {
     grid-template-columns: minmax(0, 1fr) 23.25rem;
@@ -76,9 +89,31 @@
   .home-biography-title {
     white-space: nowrap;
   }
+
+  /* Let the biography determine the row height and align the profile links. */
+  .home-biography-media {
+    display: grid;
+    grid-template-rows: minmax(0, 1fr) auto;
+    justify-items: center;
+    align-self: stretch;
+    max-width: none;
+    contain: size;
+  }
+
+  .home-biography-avatar {
+    width: auto;
+    height: auto;
+    min-height: 0;
+    max-width: min(100%, 20rem);
+    max-height: 100%;
+    align-self: end;
+  }
+
+  .home-biography-social {
+    grid-row: 2;
+  }
 }
 
-/* Competitive Programming uses the same outer width and gutters as Travel. */
 .competitive-programming-page {
   padding-bottom: 2rem;
 }
@@ -149,8 +184,7 @@
   min-height: 0;
 }
 
-/* Bio uses the same final content breathing room as Travel before the shared
-   footer spacing begins. */
+/* Spacing between the biography and the shared footer. */
 .home-biography {
   padding-bottom: 2rem;
 }
@@ -422,8 +456,7 @@
   }
 }
 
-/* Shared editorial typography. UI labels and Travel controls retain their own
-   compact component sizing. */
+/* Shared editorial typography for page content. */
 .page-body .prose {
   font-size: 1rem;
   line-height: 1.75;
@@ -465,6 +498,26 @@
 @media (max-width: 639px) {
   .research-entry-link {
     min-height: 2.25rem;
+  }
+}
+
+.navbar-brand:empty {
+  display: none;
+}
+
+/* Keep the mobile menu's native checkbox in the keyboard tab order. */
+@media (width < 1024px) {
+  .navbar #nav-toggle {
+    position: absolute;
+    display: block;
+    width: 1px;
+    height: 1px;
+    clip-path: inset(50%);
+  }
+
+  .navbar #nav-toggle:focus-visible + label {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
   }
 }
 
