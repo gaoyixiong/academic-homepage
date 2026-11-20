@@ -57,6 +57,6 @@ education:
 
 I am currently a third-year Ph.D. student in the [Department of Computer Science](https://www.cs.cityu.edu.hk/) at [City University of Hong Kong](https://www.cityu.edu.hk/), supervised by [Prof. Minming Li](https://www.cs.cityu.edu.hk/~minmli/). Prior to this, I received my B.Eng. in Computer Science and Technology from [Hangzhou Dianzi University](https://www.hdu.edu.cn/main.htm).
 
-My research interests lie broadly in theoretical computer science, with a current focus on scheduling problems and comparison-oracle methods in combinatorial optimization and algorithmic game theory.
+My research interests lie broadly in theoretical computer science, with a current focus on scheduling problems and comparison-oracle methods in combinatorial optimization and computational social choice.
 
-I am also actively involved in [competitive programming](/competitive-programming/), particularly in problem setting and contest organization.
+I am also actively involved in [competitive programming](/competitive-programming/), with a recent focus on problem setting and contest organization.
